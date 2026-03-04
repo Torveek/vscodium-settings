@@ -1,4 +1,5 @@
 {
     "workbench.colorTheme": "Tokyo Night",
-    "workbench.activityBar.location": "top"
+    "workbench.activityBar.location": "top",
+    "git.autofetch": true
 }
