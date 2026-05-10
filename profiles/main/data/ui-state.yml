@@ -1,3 +1,2687 @@
+Continue.continue: '{"hasBeenInstalled":true}'
+GigaCode.gigacode-vscode: "{\"device_code\":\"236f5c36036dbcf1619c26d996d936905\
+  28d3b9ddd13449519dec922c159737f\",\"gigacode.settings.v2\":{\"general\":{\"us\
+  eGitignore\":true,\"useOpenedTabs\":true,\"useFileSystemWatch\":true},\"chat\
+  \":{\"defaultChatMode\":\"agent\",\"askModel\":\"CodeChat\",\"agentModel\":\"\
+  CodeChat\"},\"inlineCompletions\":{\"enabled\":true,\"useCodebaseIndex\":true,\
+  \"completionsModel\":\"Gigacode-Inline-13B-v4.1\"},\"appearance\":{\"syntaxHi\
+  ghlighterTheme\":\"vscDarkPlus\",\"useVscodeTheme\":false},\"internal\":{\"is\
+  CloudIdentify\":false,\"customPrompts\":[]}},\"gigacode.lastNewVersionNotify\
+  \":1778422629987,\"gigacode.chatIds\":[\"3905ad43-b265-4615-b525-87229160b322\
+  \"],\"gigacode.chat-3905ad43-b265-4615-b525-87229160b322\":{\"id\":\"3905ad43\
+  -b265-4615-b525-87229160b322\",\"messages\":[{\"id\":\"abc990b1-d8ad-4961-921\
+  e-91e35262d11b\",\"type\":\"text\",\"role\":\"user\",\"chatMode\":\"agent\",\
+  \"text\":\"devide 4 by
+  2\",\"createdAt\":1778425670849,\"status\":\"done\"},{\"id\":\"msg_4868007fff\
+  36451ba764b807f4aa2243\",\"type\":\"text\",\"role\":\"assistant\",\"chatMode\
+  \":\"agent\",\"text\":\"4 divided by 2 equals
+  2.\",\"createdAt\":1778425671575,\"status\":\"done\",\"xTargetHeader\":\"MTAu\
+  MjMzLjkzLjEzNQ==\",\"responseId\":\"dd802390-c193-4173-846e-2cfb70141073\"},{\
+  \"id\":\"9a639b36-59a4-40bb-a2c0-ea4b917a354e\",\"type\":\"text\",\"role\":\"\
+  user\",\"chatMode\":\"agent\",\"text\":\"Analyze project and make everything
+  for Fedora linux, currently it is made for
+  Arch\",\"createdAt\":1778425706647,\"status\":\"done\"},{\"id\":\"msg_5d19663\
+  ac20c4f829d59ed267b7ba8c1\",\"type\":\"text\",\"role\":\"assistant\",\"chatMo\
+  de\":\"agent\",\"text\":\"I'll analyze the project structure and make the
+  necessary changes to adapt it from Arch Linux to Fedora Linux. Let me start by
+  examining the current project
+  structure.\\n\\n\",\"createdAt\":1778425708241,\"status\":\"done\",\"xTargetH\
+  eader\":\"MTAuMjMzLjkzLjEzNQ==\",\"responseId\":\"7f370730-a317-4f13-8789-bac\
+  bb9095fc3\"},{\"id\":\"chatcmpl-tool-d2a0f0d3bc6c43e29f6c9c451c485752\",\"type\
+  \":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":17784\
+  25708247,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjkzLjEzNQ==\",\"too\
+  lData\":{\"name\":\"read_environment\",\"parameters\":{\"need_file_system\":t\
+  rue,\"need_is_git_initialized\":true},\"result\":{\"success\":true,\"data\":{\
+  \"git\":{\"is_initialized\":false},\"file_system\":[{\"type\":\"directory\",\
+  \"path\":\"/\",\"files\":[\"config\",\"default\",\"install\",\"LICENSE\",\"RE\
+  ADME.md\",\"setup.sh\",\"themes\"]},{\"type\":\"directory\",\"path\":\"/config\
+  \",\"files\":[\"alacritty\",\"btop\",\"fastfetch\",\"fuzzel\",\"gtk-3.0\",\"g\
+  tk-4.0\",\"niri\",\"noctalia\",\"nvim\",\"starship\"]},{\"type\":\"directory\
+  \",\"path\":\"/default\",\"files\":[\"ly\",\"nvim\",\"pacman\",\"zshrc\"]},{\
+  \"type\":\"directory\",\"path\":\"/install\",\"files\":[\"install\",\"lib\",\
+  \"pkgs.txt\",\"setup-applications\",\"setup-by-hardware\",\"setup-config\",\"\
+  setup-lazyvim\",\"setup-nvidia\",\"setup-system\",\"setup-theme\",\"setup-zsh\
+  \"]},{\"type\":\"directory\",\"path\":\"/themes\",\"files\":[\"catppuccin\",\
+  \"everforest\",\"matte-black\",\"nord\",\"osaka-jade\",\"ristretto\",\"tokyo-\
+  night\"]},{\"type\":\"directory\",\"path\":\"/config\\\\alacritty\",\"files\"\
+  :[\"alacritty.toml\",\"themes\"]},{\"type\":\"directory\",\"path\":\"/config\\\
+  \\btop\",\"files\":[\"btop.conf\",\"themes\"]},{\"type\":\"directory\",\"path\
+  \":\"/config\\\\fastfetch\",\"files\":[\"arch.txt\",\"configs\"]},{\"type\":\
+  \"directory\",\"path\":\"/config\\\\fuzzel\",\"files\":[\"fuzzel.ini\"]},{\"t\
+  ype\":\"directory\",\"path\":\"/config\\\\gtk-4.0\",\"files\":[\"settings.ini\
+  \"]},{\"type\":\"directory\",\"path\":\"/config\\\\niri\",\"files\":[\"config\
+  .kdl\"]},{\"type\":\"directory\",\"path\":\"/config\\\\gtk-3.0\",\"files\":[\
+  \"bookmarks\",\"settings.ini\"]},{\"type\":\"directory\",\"path\":\"/config\\\
+  \\noctalia\",\"files\":[\"colors.json\",\"plugins\",\"plugins.json\",\"settin\
+  gs.json\"]},{\"type\":\"directory\",\"path\":\"/config\\\\nvim\",\"files\":[\
+  \"init.lua\",\"lazy-lock.json\",\"lazyvim.json\",\"LICENSE\",\"lua\",\"plugin\
+  \",\"README.md\",\"stylua.toml\"]},{\"type\":\"directory\",\"path\":\"/config\
+  \\\\starship\",\"files\":[\"configs\"]},{\"type\":\"directory\",\"path\":\"/d\
+  efault\\\\ly\",\"files\":[\"config.ini\",\"override.conf\"]},{\"type\":\"dire\
+  ctory\",\"path\":\"/default\\\\nvim\",\"files\":[\"lazyvim.json\",\"lua\",\"p\
+  lugin\"]},{\"type\":\"directory\",\"path\":\"/default\\\\pacman\",\"files\":[\
+  \"pacman.conf\"]},{\"type\":\"directory\",\"path\":\"/default\\\\zshrc\",\"fi\
+  les\":[\"aliases\",\"envs\",\"functions\",\"init\",\"rc\"]},{\"type\":\"direc\
+  tory\",\"path\":\"/install\\\\lib\",\"files\":[\"backup.sh\",\"helpers.sh\",\
+  \"rollback.sh\"]},{\"type\":\"directory\",\"path\":\"/themes\\\\catppuccin\",\
+  \"files\":[\"alacritty.toml\",\"btop.theme\",\"ghostty.conf\",\"gtk.css\",\"h\
+  yprland.conf\",\"hyprlock.conf\",\"icons.theme\",\"mako.ini\",\"neovim.lua\",\
+  \"swayosd.css\",\"walker.css\",\"waybar.css\"]},{\"type\":\"directory\",\"path\
+  \":\"/themes\\\\everforest\",\"files\":[\"alacritty.toml\",\"btop.theme\",\"g\
+  hostty.conf\",\"gtk.css\",\"hyprland.conf\",\"hyprlock.conf\",\"icons.theme\",\
+  \"mako.ini\",\"neovim.lua\",\"swayosd.css\",\"walker.css\"]}]}},\"duration\":\
+  159},\"responseId\":\"7f370730-a317-4f13-8789-bacbb9095fc3\"},{\"id\":\"chatc\
+  mpl-tool-cea7ffdd8aab42918a64b9d954b6851f\",\"type\":\"tool\",\"role\":\"assi\
+  stant\",\"chatMode\":\"agent\",\"createdAt\":1778425709588,\"status\":\"done\
+  \",\"xTargetHeader\":\"MTAuMjMzLjExMC4xNjI=\",\"toolData\":{\"name\":\"list_f\
+  iles\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-n\
+  iri-dotfiles\",\"need_recursive\":false},\"result\":{\"success\":true,\"data\
+  \":{\"directories\":[{\"type\":\"directory\",\"path\":\".\",\"files\":[\"LICE\
+  NSE\",\"README.md\",\"setup.sh\"]}]},\"summaryData\":{\"directoryCount\":1,\"\
+  filesCount\":3,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-\
+  niri-dotfiles\",\"relativePath\":\"./\",\"isRecursive\":false}},\"summaryData\
+  \":{\"directoryCount\":1,\"filesCount\":3,\"workspacePath\":\"c:\\\\Users\\\\\
+  Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"./\",\"isRecurs\
+  ive\":false},\"duration\":5},\"responseId\":\"b35f11ed-0d92-4287-a294-863e0c7\
+  c7adb\"},{\"id\":\"chatcmpl-tool-d3ae71df259842d2850c56524fd228e6\",\"type\":\
+  \"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":17784257\
+  14253,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjExMC4xNjI=\",\"toolDa\
+  ta\":{\"name\":\"read_file\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\
+  \\\\source\\\\fedora-niri-dotfiles\\\\README.md\"},\"result\":{\"success\":tr\
+  ue,\"data\":{\"content\":\"# Personal Niri + Nocatalia Shell
+  Dotfiles\\r\\n\\r\\nThis repository contains my personal dotfiles for the
+  [Niri](https://github.com/YaLTeR/niri) tiling Wayland compositor and various
+  other tools and applications I use daily.\\r\\n\\r\\n##
+  Overview\\r\\n\\r\\nThis is a collection of configuration files (dotfiles)
+  that I use for my personal computing environment. The configurations are
+  tailored for the Niri window manager and include settings for various
+  applications and tools.\\r\\n\\r\\n## Contents\\r\\n\\r\\nThe repository
+  includes configurations for:\\r\\n\\r\\n- **Niri**: Window manager
+  configuration\\r\\n- **Alacritty**: Terminal emulator settings\\r\\n-
+  **Btop**: System monitor configuration\\r\\n- **Fastfetch**: System
+  information tool\\r\\n- **Fuzzel**: Application launcher\\r\\n- **GTK**: Theme
+  settings for GTK applications\\r\\n- **Noctalia**: Quickshell as top bar and
+  etc\\r\\n- **Starship**: Prompt customization\\r\\n- **Neovim**: Editor
+  configuration\\r\\n- **Zsh**: Shell configuration\\r\\n- And
+  more...\\r\\n\\r\\n## Installation\\r\\n\\r\\nTo use these configurations, you
+  can run the setup script directly from GitHub:\\r\\n\\r\\n```bash\\r\\ncurl
+  -fsSL https://raw.githubusercontent.com/Torveek/niri-dotfiles/main/setup.sh |
+  bash\\r\\n```\\r\\n\\r\\nAlternatively, you can clone the repository and run
+  the setup
+  script:\\r\\n\\r\\n```bash\\r\\n./setup.sh\\r\\n```\\r\\n\\r\\nAdditional
+  installation scripts are available in the `install/` directory for specific
+  components.\\r\\n\\r\\n## License\\r\\n\\r\\nThis project is licensed under
+  the terms found in the [LICENSE](LICENSE)
+  file.\\r\\n\"},\"summaryData\":{\"isFull\":true,\"workspacePath\":\"c:\\\\Use\
+  rs\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"README.md\
+  \",\"fileName\":\"README.md\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\
+  \\fedora-niri-dotfiles\\\\README.md\"}},\"summaryData\":{\"isFull\":true,\"wo\
+  rkspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"r\
+  elativePath\":\"README.md\",\"fileName\":\"README.md\",\"filePath\":\"c:\\\\U\
+  sers\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\README.md\"},\"duration\"\
+  :5},\"responseId\":\"2661f108-91fa-426d-bc75-42cb48825328\"},{\"id\":\"chatcm\
+  pl-tool-2c1188f327f841c7a1e47fbb1bd17b9a\",\"type\":\"tool\",\"role\":\"assis\
+  tant\",\"chatMode\":\"agent\",\"createdAt\":1778425715584,\"status\":\"done\",\
+  \"xTargetHeader\":\"MTAuMjMzLjExMC4xNjI=\",\"toolData\":{\"name\":\"read_file\
+  \",\"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-\
+  dotfiles\\\\setup.sh\"},\"result\":{\"success\":true,\"data\":{\"content\":\"\
+  #!/bin/bash\\r\\n\\r\\nset
+  -e\\r\\n\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\nREPO\
+  _URL=\\\"https://github.com/Torveek/niri-dotfiles.git\\\"\\r\\n\\r\\necho
+  \\\"==============\\\"\\r\\necho \\\"Dotfiles Setup\\\"\\r\\necho
+  \\\"==============\\\"\\r\\necho\\r\\n\\r\\n# Check if dotfiles directory
+  already exists\\r\\nif [ -d \\\"$DOTFILES_DIR\\\" ]; then\\r\\n    echo
+  \\\"ERROR: $DOTFILES_DIR already exists!\\\"\\r\\n    echo \\\"If you want to
+  reinstall, please remove or backup the existing directory
+  first:\\\"\\r\\n    echo \\\"  mv ~/.local/share/niri-dotfiles
+  ~/.local/share/niri-dotfiles.backup\\\"\\r\\n    exit 1\\r\\nfi\\r\\n\\r\\n#
+  Check if git is installed\\r\\nif ! command -v git &> /dev/null;
+  then\\r\\n    echo \\\"Git is not installed. Installing
+  git...\\\"\\r\\n    sudo pacman -S --noconfirm git\\r\\n    echo \\\"Git
+  installed successfully!\\\"\\r\\nfi\\r\\n\\r\\n# Create .config directory if
+  it doesn't exist\\r\\nmkdir -p \\\"$HOME/.config\\\"\\r\\n\\r\\n# Create
+  .local/share/dotfiles directory\\r\\nmkdir -p
+  \\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\n\\r\\n# Clone the dotfiles
+  repository\\r\\necho \\\"Cloning dotfiles repository...\\\"\\r\\ngit clone
+  \\\"$REPO_URL\\\" \\\"$DOTFILES_DIR\\\"\\r\\n\\r\\necho\\r\\necho
+  \\\"Repository cloned successfully!\\\"\\r\\necho \\\"Starting
+  installation...\\\"\\r\\necho\\r\\n\\r\\n# Run the installer\\r\\nbash
+  \\\"$DOTFILES_DIR/install/install\\\"\\r\\n\"},\"summaryData\":{\"isFull\":tr\
+  ue,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\
+  \",\"relativePath\":\"setup.sh\",\"fileName\":\"setup.sh\",\"filePath\":\"c:\\\
+  \\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\setup.sh\"}},\"summary\
+  Data\":{\"isFull\":true,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\
+  \\fedora-niri-dotfiles\",\"relativePath\":\"setup.sh\",\"fileName\":\"setup.sh\
+  \",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\\
+  setup.sh\"},\"duration\":4},\"responseId\":\"7ae14d28-5e89-4af1-8f56-d1412e29\
+  d146\"},{\"id\":\"chatcmpl-tool-4836ea862b18495ea9c8ec8d35b4276a\",\"type\":\
+  \"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":17784257\
+  18166,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjEwNy4yMzQ=\",\"toolDa\
+  ta\":{\"name\":\"search_files\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Tor\
+  vik\\\\source\\\\fedora-niri-dotfiles\",\"include_patterns\":[\"**/*.txt\",\"\
+  **/*.conf\",\"**/*.sh\"],\"content_regex\":{\"pattern\":\"pacman\",\"flags\":\
+  \"i\"}},\"result\":{\"success\":true,\"data\":{\"matches\":[{\"path\":\"C:\\\
+  \\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\pacman\\\\p\
+  acman.conf\",\"matches\":[{\"line_number\":2,\"line\":\"#
+  /etc/pacman.conf\"},{\"line_number\":4,\"line\":\"# See the pacman.conf(5)
+  manpage for option and repository
+  directives\"},{\"line_number\":10,\"line\":\"HoldPkg     = pacman
+  glibc\"},{\"line_number\":12,\"line\":\"# Pacman won't upgrade packages listed
+  in IgnorePkg and members of IgnoreGroup\"},{\"line_number\":23,\"line\":\"# By
+  default, pacman accepts packages signed by keys that its local
+  keyring\"},{\"line_number\":24,\"line\":\"# trusts (see pacman-key and its man
+  page), as well as unsigned packages.\"},{\"line_number\":29,\"line\":\"Include
+  = /etc/pacman.d/mirrorlist\"},{\"line_number\":32,\"line\":\"Include =
+  /etc/pacman.d/mirrorlist\"},{\"line_number\":36,\"line\":\"#Include =
+  /etc/pacman.d/mirrorlist\"}]},{\"path\":\"C:\\\\Users\\\\Torvik\\\\source\\\\\
+  fedora-niri-dotfiles\\\\setup.sh\",\"matches\":[{\"line_number\":24,\"line\":\
+  \"sudo pacman -S --noconfirm
+  git\"}]},{\"path\":\"C:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\
+  \\install\\\\lib\\\\helpers.sh\",\"matches\":[{\"line_number\":21,\"line\":\"\
+  pacman -Q \\\"$1\\\" &>/dev/null\"},{\"line_number\":27,\"line\":\"sudo pacman
+  -S --noconfirm
+  gum\"}]}]},\"summaryData\":{\"filesCount\":3,\"matchesCount\":12,\"contentPat\
+  tern\":\"pacman\",\"pathPattern\":\"**/*.txt\"}},\"summaryData\":{\"filesCount\
+  \":3,\"matchesCount\":12,\"contentPattern\":\"pacman\",\"pathPattern\":\"**/*\
+  .txt\"},\"duration\":94},\"responseId\":\"f31d9cd0-beef-4095-be61-0d157bf3eb6e\
+  \"},{\"id\":\"chatcmpl-tool-09d512940ae84d3c8738dcf28bb1433f\",\"type\":\"tool\
+  \",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":1778425720067,\
+  \"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjEwNy4yMzQ=\",\"toolData\":{\
+  \"name\":\"search_files\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\
+  \\source\\\\fedora-niri-dotfiles\",\"include_patterns\":[\"**/*.sh\"],\"conte\
+  nt_regex\":{\"pattern\":\"arch\",\"flags\":\"i\"}},\"result\":{\"success\":tr\
+  ue,\"data\":{\"matches\":[]},\"summaryData\":{\"filesCount\":0,\"matchesCount\
+  \":0,\"contentPattern\":\"arch\",\"pathPattern\":\"**/*.sh\"}},\"summaryData\
+  \":{\"filesCount\":0,\"matchesCount\":0,\"contentPattern\":\"arch\",\"pathPat\
+  tern\":\"**/*.sh\"},\"duration\":6},\"responseId\":\"0bbc6b35-ec21-426e-b7b2-\
+  b48f2dc4c983\"},{\"id\":\"chatcmpl-tool-e57e05a8084546da8df52f402fb4e020\",\"\
+  type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":1\
+  778425722064,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjkzLjEzNQ==\",\
+  \"toolData\":{\"name\":\"search_files\",\"parameters\":{\"path\":\"c:\\\\Users\
+  \\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"include_patterns\":[\"**/*.sh\
+  \"],\"content_regex\":{\"pattern\":\"dnf|yum\",\"flags\":\"i\"}},\"result\":{\
+  \"success\":true,\"data\":{\"matches\":[]},\"summaryData\":{\"filesCount\":0,\
+  \"matchesCount\":0,\"contentPattern\":\"dnf|yum\",\"pathPattern\":\"**/*.sh\"\
+  }},\"summaryData\":{\"filesCount\":0,\"matchesCount\":0,\"contentPattern\":\"\
+  dnf|yum\",\"pathPattern\":\"**/*.sh\"},\"duration\":8},\"responseId\":\"2cacb\
+  6bd-f27d-43bc-b644-8890df855283\"},{\"id\":\"chatcmpl-tool-dce07f5fca274db489\
+  8e659983ee43c1\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\
+  \",\"createdAt\":1778425723337,\"status\":\"done\",\"xTargetHeader\":\"MTAuMj\
+  MzLjkzLjEzNQ==\",\"toolData\":{\"name\":\"list_files\",\"parameters\":{\"path\
+  \":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\",\"n\
+  eed_recursive\":true},\"result\":{\"success\":true,\"data\":{\"directories\":\
+  [{\"type\":\"directory\",\"path\":\".\",\"files\":[\"install\",\"pkgs.txt\",\
+  \"setup-applications\",\"setup-by-hardware\",\"setup-config\",\"setup-lazyvim\
+  \",\"setup-nvidia\",\"setup-system\",\"setup-theme\",\"setup-zsh\"]},{\"type\
+  \":\"directory\",\"path\":\"lib\",\"files\":[\"backup.sh\",\"helpers.sh\",\"r\
+  ollback.sh\"]}]},\"summaryData\":{\"directoryCount\":2,\"filesCount\":13,\"wo\
+  rkspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"r\
+  elativePath\":\"install\",\"isRecursive\":true}},\"summaryData\":{\"directory\
+  Count\":2,\"filesCount\":13,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\sour\
+  ce\\\\fedora-niri-dotfiles\",\"relativePath\":\"install\",\"isRecursive\":tru\
+  e},\"duration\":3},\"responseId\":\"0780f9a1-f4a1-44a5-8b26-18b0dd278df4\"},{\
+  \"id\":\"chatcmpl-tool-a08c450ec09b4ea1933efbc57f76c452\",\"type\":\"tool\",\
+  \"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":1778425724649,\"s\
+  tatus\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjkzLjEzNQ==\",\"toolData\":{\"n\
+  ame\":\"read_file\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\
+  \\\\fedora-niri-dotfiles\\\\install\\\\setup-system\"},\"result\":{\"success\
+  \":true,\"data\":{\"content\":\"#!/bin/bash\\r\\n\\r\\nset
+  -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! pacman -Q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"summaryData\":{\"isFull\":true,\"workspacePath\":\"c:\
+  \\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"in\
+  stall\\\\setup-system\",\"fileName\":\"setup-system\",\"filePath\":\"c:\\\\Us\
+  ers\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\setup-system\"}\
+  },\"summaryData\":{\"isFull\":true,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\
+  \\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"install\\\\setup-system\
+  \",\"fileName\":\"setup-system\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\sour\
+  ce\\\\fedora-niri-dotfiles\\\\install\\\\setup-system\"},\"duration\":3},\"re\
+  sponseId\":\"8c4b2ff1-040c-40c3-810c-98dffa944fd7\"},{\"id\":\"chatcmpl-tool-\
+  72628aa0ba6c4af4a830e862e17af598\",\"type\":\"tool\",\"role\":\"assistant\",\
+  \"chatMode\":\"agent\",\"createdAt\":1778425726011,\"status\":\"done\",\"xTar\
+  getHeader\":\"MTAuMjMzLjkzLjEzNQ==\",\"toolData\":{\"name\":\"read_file\",\"p\
+  arameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfil\
+  es\\\\install\\\\setup-applications\"},\"result\":{\"success\":true,\"data\":{\
+  \"content\":\"#!/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$( cd --
+  \\\"$( dirname -- \\\"${BASH_SOURCE[0]}\\\" )\\\" &> /dev/null && pwd
+  )\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/d\
+  otfiles\\\"\\r\\n\\r\\nlog_info \\\"Setting up
+  applications...\\\"\\r\\n\\r\\nAPPS_DIR=\\\"$HOME/.local/share/applications\\\
+  \"\\r\\nif [ -L \\\"$APPS_DIR\\\" ] && [ ! -e \\\"$APPS_DIR\\\" ];
+  then\\r\\n  log_info \\\"Removing broken symlink at
+  $APPS_DIR\\\"\\r\\n  remove_path \\\"$APPS_DIR\\\"\\r\\nfi\\r\\n\\r\\nmkdir -p
+  \\\"$APPS_DIR\\\"\\r\\nfor app_file in \\\"$DOTFILES_DIR/applications\\\"/*;
+  do\\r\\n  if [ -f \\\"$app_file\\\" ]; then\\r\\n    app_name=$(basename
+  \\\"$app_file\\\")\\r\\n    target_app=\\\"$HOME/.local/share/applications/$a\
+  pp_name\\\"\\r\\n    [ -f \\\"$target_app\\\" ] && continue\\r\\n    cp
+  \\\"$app_file\\\"
+  \\\"$target_app\\\"\\r\\n  fi\\r\\ndone\\r\\n\"},\"summaryData\":{\"isFull\":\
+  true,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfi\
+  les\",\"relativePath\":\"install\\\\setup-applications\",\"fileName\":\"setup\
+  -applications\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri\
+  -dotfiles\\\\install\\\\setup-applications\"}},\"summaryData\":{\"isFull\":tr\
+  ue,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\
+  \",\"relativePath\":\"install\\\\setup-applications\",\"fileName\":\"setup-ap\
+  plications\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-do\
+  tfiles\\\\install\\\\setup-applications\"},\"duration\":10},\"responseId\":\"\
+  a6f8e542-b69a-49b0-9c82-50d9fc779ed6\"},{\"id\":\"chatcmpl-tool-ba3c9999d9804\
+  0899455b0bce981a896\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\
+  \"agent\",\"createdAt\":1778425727399,\"status\":\"done\",\"xTargetHeader\":\
+  \"MTAuMjMzLjkzLjEzNQ==\",\"toolData\":{\"name\":\"read_file\",\"parameters\":{\
+  \"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\
+  \\\\setup-zsh\"},\"result\":{\"success\":true,\"data\":{\"content\":\"#!/bin/\
+  bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$( cd -- \\\"$( dirname --
+  \\\"${BASH_SOURCE[0]}\\\" )\\\" &> /dev/null && pwd )\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Setup zsh\\r\\nlog_info \\\"Setting zsh as
+  default shell...\\\"\\r\\nZSH_PATH=/usr/bin/zsh\\r\\nCURRENT_SHELL=$(getent
+  passwd $USER | cut -d: -f7)\\r\\n\\r\\nif [ \\\"$CURRENT_SHELL\\\" !=
+  \\\"$ZSH_PATH\\\" ]; then\\r\\n    sudo chsh -s \\\"$ZSH_PATH\\\"
+  \\\"$USER\\\"\\r\\n    log_success \\\"Default shell changed to
+  zsh\\\"\\r\\n    log_info \\\"Note: You need to log out and back in for shell
+  change to take effect\\\"\\r\\nelse\\r\\n    log_detail \\\"zsh is already the
+  default shell\\\"\\r\\nfi\\r\\n\\r\\n# Install Oh My Zsh\\r\\nif [ ! -d
+  \\\"$HOME/.oh-my-zsh\\\" ]; then\\r\\n    log_info \\\"Installing Oh My
+  Zsh...\\\"\\r\\n    sh -c \\\"$(curl -fsSL
+  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\\\"
+  \\\"\\\" --unattended\\r\\n    log_success \\\"Oh My Zsh
+  installed\\\"\\r\\nelse\\r\\n    log_detail \\\"Oh My Zsh already
+  installed\\\"\\r\\nfi\\r\\n\\r\\n# Install zsh plugins\\r\\nlog_info
+  \\\"Installing zsh
+  plugins...\\\"\\r\\nZSH_CUSTOM=\\\"${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}\\\"\
+  \\r\\n\\r\\nif [ ! -d \\\"$ZSH_CUSTOM/plugins/zsh-autosuggestions\\\" ];
+  then\\r\\n    git clone https://github.com/zsh-users/zsh-autosuggestions
+  \\\"$ZSH_CUSTOM/plugins/zsh-autosuggestions\\\"\\r\\n    log_success
+  \\\"zsh-autosuggestions installed\\\"\\r\\nelse\\r\\n    log_detail
+  \\\"zsh-autosuggestions already installed\\\"\\r\\nfi\\r\\n\\r\\nif [ ! -d
+  \\\"$ZSH_CUSTOM/plugins/fast-syntax-highlighting\\\" ]; then\\r\\n    git
+  clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
+  \\\\\\r\\n      \\\"$ZSH_CUSTOM/plugins/fast-syntax-highlighting\\\"\\r\\n    \
+  log_success \\\"fast-syntax-highlighting
+  installed\\\"\\r\\nelse\\r\\n    log_detail \\\"fast-syntax-highlighting
+  already installed\\\"\\r\\nfi\\r\\n\\r\\nlog_info \\\"Setting up
+  .zshrc...\\\"\\r\\nif [ -f \\\"$HOME/.zshrc\\\" ] || [ -L \\\"$HOME/.zshrc\\\"
+  ]; then\\r\\n    if [ -e \\\"$HOME/.zshrc\\\" ]; then\\r\\n        backup_file
+  \\\"$HOME/.zshrc\\\" || {\\r\\n            log_error \\\"Failed to backup
+  .zshrc\\\"\\r\\n            exit
+  1\\r\\n        }\\r\\n    fi\\r\\n    remove_path
+  \\\"$HOME/.zshrc\\\"\\r\\nfi\\r\\ncp \\\"$DOTFILES_DIR/default/.zshrc\\\"
+  \\\"$HOME/.zshrc\\\"\\r\\n\\r\\nlog_success \\\"Zsh setup
+  finished\\\"\\r\\n\"},\"summaryData\":{\"isFull\":true,\"workspacePath\":\"c:\
+  \\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"in\
+  stall\\\\setup-zsh\",\"fileName\":\"setup-zsh\",\"filePath\":\"c:\\\\Users\\\
+  \\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\setup-zsh\"}},\"summ\
+  aryData\":{\"isFull\":true,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\
+  \\\\fedora-niri-dotfiles\",\"relativePath\":\"install\\\\setup-zsh\",\"fileNa\
+  me\":\"setup-zsh\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-n\
+  iri-dotfiles\\\\install\\\\setup-zsh\"},\"duration\":3},\"responseId\":\"3e79\
+  1ce7-50f2-411d-a7c3-18a8802b5405\"},{\"id\":\"chatcmpl-tool-70f27144d6104dc99\
+  61a7d311c62625e\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"age\
+  nt\",\"createdAt\":1778425728332,\"status\":\"done\",\"xTargetHeader\":\"MTAu\
+  MjMzLjkzLjEzNQ==\",\"toolData\":{\"name\":\"read_file\",\"parameters\":{\"path\
+  \":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\lib\
+  \\\\helpers.sh\"},\"result\":{\"success\":true,\"data\":{\"content\":\"#!/bin\
+  /bash\\r\\n\\r\\n_GREEN='\\\\033[0;32m'\\r\\n_BLUE='\\\\033[0;34m'\\r\\n_YELL\
+  OW='\\\\033[1;33m'\\r\\n_RED='\\\\033[0;31m'\\r\\n_CYAN='\\\\033[0;36m'\\r\\n\
+  _NC='\\\\033[0m'\\r\\n\\r\\n_ICON_STEP=\\\"▸\\\"\\r\\n_ICON_INFO=\\\"→\\\"\\r\
+  \\n_ICON_SUCCESS=\\\"✓\\\"\\r\\n_ICON_ERROR=\\\"✗\\\"\\r\\n_ICON_ARROW=\\\"›\\\
+  \"\\r\\n\\r\\n_has_gum() {\\r\\n    command -v gum &>
+  /dev/null\\r\\n}\\r\\n\\r\\nis_installed() {\\r\\n    pacman -Q \\\"$1\\\"
+  &>/dev/null\\r\\n}\\r\\n\\r\\nensure_gum() {\\r\\n    if ! is_installed
+  \\\"gum\\\"; then\\r\\n        echo \\\"Installing gum for better
+  UI...\\\"\\r\\n        sudo pacman -S --noconfirm
+  gum\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_header() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --border double
+  \\\\\\r\\n            --border-foreground 108 \\\\\\r\\n            --padding
+  \\\"0 2\\\" \\\\\\r\\n            --margin \\\"1 0\\\"
+  \\\\\\r\\n            --width 50 \\\\\\r\\n            --align center
+  \\\\\\r\\n            \\\"$text\\\"\\r\\n        echo\\r\\n    else\\r\\n        \
+  echo -e
+  \\\"\\\\n${_GREEN}════════════════════════════════════════${_NC}\\\"\\r\\n        \
+  echo -e \\\"${_GREEN}  $text${_NC}\\\"\\r\\n        echo -e
+  \\\"${_GREEN}════════════════════════════════════════${_NC}\\\\n\\\"\\r\\n    \
+  fi\\r\\n}\\r\\n\\r\\nlog_step() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"$_ICON_STEP
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"\\\\n${_GREEN}$_ICON_STEP${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_info() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 246 \\\\\\r\\n            \\\"  $_ICON_INFO
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_YELLOW}$_ICON_INFO${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_success() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108
+  \\\\\\r\\n            \\\"  $_ICON_SUCCESS
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"  ${_GREEN}$_ICON_SUCCESS${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_error() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 196 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"  $_ICON_ERROR
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_RED}$_ICON_ERROR${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_detail() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 241
+  \\\\\\r\\n            \\\"    $_ICON_ARROW
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"    ${_CYAN}$_ICON_ARROW${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nspinner() {\\r\\n    local
+  title=\\\"$1\\\"\\r\\n    shift\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum spin \\\\\\r\\n            --spinner dot
+  \\\\\\r\\n            --title \\\"$title\\\"
+  \\\\\\r\\n            --show-error \\\\\\r\\n            --
+  \\\"$@\\\"\\r\\n    else\\r\\n        echo -e \\\"${_CYAN}⟳${_NC}
+  $title\\\"\\r\\n        \\\"$@\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nask_yes_no()
+  {\\r\\n    local prompt=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum confirm \\\"$prompt\\\" && return 0 || return
+  1\\r\\n    else\\r\\n        while true; do\\r\\n            read -p
+  \\\"$prompt [y/n]: \\\" yn\\r\\n            case $yn
+  in\\r\\n                [Yy]* ) return 0;;\\r\\n                [Nn]* ) return
+  1;;\\r\\n                * ) echo \\\"Please answer yes or
+  no.\\\";;\\r\\n            esac\\r\\n        done\\r\\n    fi\\r\\n}\\r\\n\\r\
+  \\nlog_progress() {\\r\\n    local text=\\\"$1\\\"\\r\\n    local
+  count=\\\"$2\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            \\\"  [$count]
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_CYAN}[$count]${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\ndetect_hardware_type() {\\r\\n    if
+  ls /sys/class/power_supply/BAT* >/dev/null 2>&1 || [ -d
+  /sys/class/power_supply/battery ]; then\\r\\n        echo
+  \\\"laptop\\\"\\r\\n    else\\r\\n        echo
+  \\\"desktop\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nhas_nvidia_gpu()
+  {\\r\\n    lspci | grep -i nvidia &>/dev/null\\r\\n}\\r\\n\\r\\nremove_path()
+  {\\r\\n    local target=\\\"$1\\\"\\r\\n\\r\\n    if [ -L \\\"$target\\\" ] &&
+  [ ! -e \\\"$target\\\" ]; then\\r\\n        rm -f
+  \\\"$target\\\"\\r\\n    elif [ -e \\\"$target\\\" ]; then\\r\\n        rm -rf
+  \\\"$target\\\"\\r\\n    fi\\r\\n}\\r\\n\"},\"summaryData\":{\"isFull\":true,\
+  \"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\
+  \"relativePath\":\"install\\\\lib\\\\helpers.sh\",\"fileName\":\"helpers.sh\",\
+  \"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\ins\
+  tall\\\\lib\\\\helpers.sh\"}},\"summaryData\":{\"isFull\":true,\"workspacePath\
+  \":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\
+  \":\"install\\\\lib\\\\helpers.sh\",\"fileName\":\"helpers.sh\",\"filePath\":\
+  \"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\lib\\\
+  \\helpers.sh\"},\"duration\":2},\"responseId\":\"119cc6e8-6176-4b0c-9ecd-84f1\
+  e0371f39\"},{\"id\":\"chatcmpl-tool-697d455c51094f1d97eab9fd9f11cf13\",\"type\
+  \":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":17784\
+  25729760,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjkzLjEzNQ==\",\"too\
+  lData\":{\"name\":\"read_file\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Tor\
+  vik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\pkgs.txt\"},\"result\":{\
+  \"success\":true,\"data\":{\"content\":\"# System &
+  Security\\r\\ngnome-keyring\\r\\nopenssh\\r\\npolkit-gnome\\r\\nufw\\r\\nusbu\
+  tils\\r\\n\\r\\n# Terminal &
+  Shell\\r\\nalacritty\\r\\nbat\\r\\nbc\\r\\nbtop\\r\\neza\\r\\nfastfetch\\r\\n\
+  fd\\r\\nfzf\\r\\njq\\r\\npv\\r\\nripgrep\\r\\nstarship\\r\\nzoxide\\r\\nzsh\\r\
+  \\n\\r\\n#
+  Development\\r\\ngit\\r\\nlazygit\\r\\nneovim\\r\\nvscodium-bin\\r\\n\\r\\n#
+  Browsers\\r\\nfirefox\\r\\n# helium-browser-bin\\r\\n#
+  zen-browser-bin\\r\\n\\r\\n# Niri\\r\\nniri\\r\\nnoctalia-shell\\r\\n\\r\\n#
+  Wayland UI &
+  Utilities\\r\\nfuzzel\\r\\nxwayland-satellite  \\r\\nswaybg\\r\\nswaylock\\r\
+  \\n\\r\\n# File Management &
+  Desktop\\r\\nnautilus\\r\\nnautilus-open-any-terminal\\r\\nrsync\\r\\nunzip\\r\
+  \\n\\r\\n# System Utilities\\r\\npower-profiles-daemon\\r\\n\\r\\n#
+  Appearance\\r\\nbibata-cursor-theme\\r\\ngnome-themes-extra\\r\\nnoto-fonts\\r\
+  \\nnoto-fonts-emoji\\r\\notf-font-awesome\\r\\nttf-cascadia-mono-nerd\\r\\ntt\
+  f-jetbrains-mono-nerd\\r\\ncmatrix\\r\\n\\r\\n#
+  Applications\\r\\nmpv\\r\\n\\r\\n# Desktop
+  Portals\\r\\nxdg-desktop-portal-gtk\\r\\nxdg-utils\\r\\n\"},\"summaryData\":{\
+  \"isFull\":true,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora\
+  -niri-dotfiles\",\"relativePath\":\"install\\\\pkgs.txt\",\"fileName\":\"pkgs\
+  .txt\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\
+  \\\\install\\\\pkgs.txt\"}},\"summaryData\":{\"isFull\":true,\"workspacePath\
+  \":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\
+  \":\"install\\\\pkgs.txt\",\"fileName\":\"pkgs.txt\",\"filePath\":\"c:\\\\Use\
+  rs\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\pkgs.txt\"},\"du\
+  ration\":2},\"responseId\":\"40ad0a96-b2a6-4800-b4d5-023659827a7c\"},{\"id\":\
+  \"chatcmpl-tool-3bd75329b5934e80926a75e495393864\",\"type\":\"tool\",\"role\":\
+  \"assistant\",\"chatMode\":\"agent\",\"createdAt\":1778425731527,\"status\":\
+  \"done\",\"xTargetHeader\":\"MTAuMjMzLjkzLjEzNQ==\",\"toolData\":{\"name\":\"\
+  str_replace\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\f\
+  edora-niri-dotfiles\\\\setup.sh\",\"from\":{\"text\":\"sudo pacman -S
+  --noconfirm git\"},\"to\":\"sudo dnf install -y
+  git\"},\"result\":{\"success\":true,\"data\":{\"changedLineNumbers\":[24],\"o\
+  riginal_content\":\"#!/bin/bash\\r\\n\\r\\nset
+  -e\\r\\n\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\nREPO\
+  _URL=\\\"https://github.com/Torveek/niri-dotfiles.git\\\"\\r\\n\\r\\necho
+  \\\"==============\\\"\\r\\necho \\\"Dotfiles Setup\\\"\\r\\necho
+  \\\"==============\\\"\\r\\necho\\r\\n\\r\\n# Check if dotfiles directory
+  already exists\\r\\nif [ -d \\\"$DOTFILES_DIR\\\" ]; then\\r\\n    echo
+  \\\"ERROR: $DOTFILES_DIR already exists!\\\"\\r\\n    echo \\\"If you want to
+  reinstall, please remove or backup the existing directory
+  first:\\\"\\r\\n    echo \\\"  mv ~/.local/share/niri-dotfiles
+  ~/.local/share/niri-dotfiles.backup\\\"\\r\\n    exit 1\\r\\nfi\\r\\n\\r\\n#
+  Check if git is installed\\r\\nif ! command -v git &> /dev/null;
+  then\\r\\n    echo \\\"Git is not installed. Installing
+  git...\\\"\\r\\n    sudo pacman -S --noconfirm git\\r\\n    echo \\\"Git
+  installed successfully!\\\"\\r\\nfi\\r\\n\\r\\n# Create .config directory if
+  it doesn't exist\\r\\nmkdir -p \\\"$HOME/.config\\\"\\r\\n\\r\\n# Create
+  .local/share/dotfiles directory\\r\\nmkdir -p
+  \\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\n\\r\\n# Clone the dotfiles
+  repository\\r\\necho \\\"Cloning dotfiles repository...\\\"\\r\\ngit clone
+  \\\"$REPO_URL\\\" \\\"$DOTFILES_DIR\\\"\\r\\n\\r\\necho\\r\\necho
+  \\\"Repository cloned successfully!\\\"\\r\\necho \\\"Starting
+  installation...\\\"\\r\\necho\\r\\n\\r\\n# Run the installer\\r\\nbash
+  \\\"$DOTFILES_DIR/install/install\\\"\\r\\n\"},\"summaryData\":{\"fileName\":\
+  \"setup.sh\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-do\
+  tfiles\\\\setup.sh\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"worksp\
+  acePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relat\
+  ivePath\":\"setup.sh\",\"isCreated\":false,\"originalContent\":\"#!/bin/bash\
+  \\r\\n\\r\\nset
+  -e\\r\\n\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\nREPO\
+  _URL=\\\"https://github.com/Torveek/niri-dotfiles.git\\\"\\r\\n\\r\\necho
+  \\\"==============\\\"\\r\\necho \\\"Dotfiles Setup\\\"\\r\\necho
+  \\\"==============\\\"\\r\\necho\\r\\n\\r\\n# Check if dotfiles directory
+  already exists\\r\\nif [ -d \\\"$DOTFILES_DIR\\\" ]; then\\r\\n    echo
+  \\\"ERROR: $DOTFILES_DIR already exists!\\\"\\r\\n    echo \\\"If you want to
+  reinstall, please remove or backup the existing directory
+  first:\\\"\\r\\n    echo \\\"  mv ~/.local/share/niri-dotfiles
+  ~/.local/share/niri-dotfiles.backup\\\"\\r\\n    exit 1\\r\\nfi\\r\\n\\r\\n#
+  Check if git is installed\\r\\nif ! command -v git &> /dev/null;
+  then\\r\\n    echo \\\"Git is not installed. Installing
+  git...\\\"\\r\\n    sudo pacman -S --noconfirm git\\r\\n    echo \\\"Git
+  installed successfully!\\\"\\r\\nfi\\r\\n\\r\\n# Create .config directory if
+  it doesn't exist\\r\\nmkdir -p \\\"$HOME/.config\\\"\\r\\n\\r\\n# Create
+  .local/share/dotfiles directory\\r\\nmkdir -p
+  \\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\n\\r\\n# Clone the dotfiles
+  repository\\r\\necho \\\"Cloning dotfiles repository...\\\"\\r\\ngit clone
+  \\\"$REPO_URL\\\" \\\"$DOTFILES_DIR\\\"\\r\\n\\r\\necho\\r\\necho
+  \\\"Repository cloned successfully!\\\"\\r\\necho \\\"Starting
+  installation...\\\"\\r\\necho\\r\\n\\r\\n# Run the installer\\r\\nbash
+  \\\"$DOTFILES_DIR/install/install\\\"\\r\\n\"}},\"summaryData\":{\"fileName\":\
+  \"setup.sh\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-do\
+  tfiles\\\\setup.sh\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"worksp\
+  acePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relat\
+  ivePath\":\"setup.sh\",\"isCreated\":false,\"originalContent\":\"#!/bin/bash\
+  \\r\\n\\r\\nset
+  -e\\r\\n\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\nREPO\
+  _URL=\\\"https://github.com/Torveek/niri-dotfiles.git\\\"\\r\\n\\r\\necho
+  \\\"==============\\\"\\r\\necho \\\"Dotfiles Setup\\\"\\r\\necho
+  \\\"==============\\\"\\r\\necho\\r\\n\\r\\n# Check if dotfiles directory
+  already exists\\r\\nif [ -d \\\"$DOTFILES_DIR\\\" ]; then\\r\\n    echo
+  \\\"ERROR: $DOTFILES_DIR already exists!\\\"\\r\\n    echo \\\"If you want to
+  reinstall, please remove or backup the existing directory
+  first:\\\"\\r\\n    echo \\\"  mv ~/.local/share/niri-dotfiles
+  ~/.local/share/niri-dotfiles.backup\\\"\\r\\n    exit 1\\r\\nfi\\r\\n\\r\\n#
+  Check if git is installed\\r\\nif ! command -v git &> /dev/null;
+  then\\r\\n    echo \\\"Git is not installed. Installing
+  git...\\\"\\r\\n    sudo pacman -S --noconfirm git\\r\\n    echo \\\"Git
+  installed successfully!\\\"\\r\\nfi\\r\\n\\r\\n# Create .config directory if
+  it doesn't exist\\r\\nmkdir -p \\\"$HOME/.config\\\"\\r\\n\\r\\n# Create
+  .local/share/dotfiles directory\\r\\nmkdir -p
+  \\\"$HOME/.local/share/niri-dotfiles\\\"\\r\\n\\r\\n# Clone the dotfiles
+  repository\\r\\necho \\\"Cloning dotfiles repository...\\\"\\r\\ngit clone
+  \\\"$REPO_URL\\\" \\\"$DOTFILES_DIR\\\"\\r\\n\\r\\necho\\r\\necho
+  \\\"Repository cloned successfully!\\\"\\r\\necho \\\"Starting
+  installation...\\\"\\r\\necho\\r\\n\\r\\n# Run the installer\\r\\nbash
+  \\\"$DOTFILES_DIR/install/install\\\"\\r\\n\"},\"duration\":7},\"responseId\":\
+  \"e0f3c724-3587-4e1b-9523-e3af865f7626\"},{\"id\":\"chatcmpl-tool-33c6c854186\
+  c49edb5eb6f3cf403f210\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\
+  \"agent\",\"createdAt\":1778425733647,\"status\":\"done\",\"xTargetHeader\":\
+  \"MTAuMjMzLjkzLjEzNQ==\",\"toolData\":{\"name\":\"str_replace\",\"parameters\
+  \":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\ins\
+  tall\\\\lib\\\\helpers.sh\",\"from\":{\"text\":\"pacman -Q \\\"$1\\\"
+  &>/dev/null\"},\"to\":\"rpm -q \\\"$1\\\"
+  &>/dev/null\"},\"result\":{\"success\":true,\"data\":{\"changedLineNumbers\":\
+  [21],\"original_content\":\"#!/bin/bash\\r\\n\\r\\n_GREEN='\\\\033[0;32m'\\r\
+  \\n_BLUE='\\\\033[0;34m'\\r\\n_YELLOW='\\\\033[1;33m'\\r\\n_RED='\\\\033[0;31\
+  m'\\r\\n_CYAN='\\\\033[0;36m'\\r\\n_NC='\\\\033[0m'\\r\\n\\r\\n_ICON_STEP=\\\
+  \"▸\\\"\\r\\n_ICON_INFO=\\\"→\\\"\\r\\n_ICON_SUCCESS=\\\"✓\\\"\\r\\n_ICON_ERR\
+  OR=\\\"✗\\\"\\r\\n_ICON_ARROW=\\\"›\\\"\\r\\n\\r\\n_has_gum()
+  {\\r\\n    command -v gum &> /dev/null\\r\\n}\\r\\n\\r\\nis_installed()
+  {\\r\\n    pacman -Q \\\"$1\\\" &>/dev/null\\r\\n}\\r\\n\\r\\nensure_gum()
+  {\\r\\n    if ! is_installed \\\"gum\\\"; then\\r\\n        echo
+  \\\"Installing gum for better UI...\\\"\\r\\n        sudo pacman -S
+  --noconfirm gum\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_header() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --border double
+  \\\\\\r\\n            --border-foreground 108 \\\\\\r\\n            --padding
+  \\\"0 2\\\" \\\\\\r\\n            --margin \\\"1 0\\\"
+  \\\\\\r\\n            --width 50 \\\\\\r\\n            --align center
+  \\\\\\r\\n            \\\"$text\\\"\\r\\n        echo\\r\\n    else\\r\\n        \
+  echo -e
+  \\\"\\\\n${_GREEN}════════════════════════════════════════${_NC}\\\"\\r\\n        \
+  echo -e \\\"${_GREEN}  $text${_NC}\\\"\\r\\n        echo -e
+  \\\"${_GREEN}════════════════════════════════════════${_NC}\\\\n\\\"\\r\\n    \
+  fi\\r\\n}\\r\\n\\r\\nlog_step() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"$_ICON_STEP
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"\\\\n${_GREEN}$_ICON_STEP${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_info() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 246 \\\\\\r\\n            \\\"  $_ICON_INFO
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_YELLOW}$_ICON_INFO${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_success() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108
+  \\\\\\r\\n            \\\"  $_ICON_SUCCESS
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"  ${_GREEN}$_ICON_SUCCESS${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_error() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 196 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"  $_ICON_ERROR
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_RED}$_ICON_ERROR${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_detail() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 241
+  \\\\\\r\\n            \\\"    $_ICON_ARROW
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"    ${_CYAN}$_ICON_ARROW${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nspinner() {\\r\\n    local
+  title=\\\"$1\\\"\\r\\n    shift\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum spin \\\\\\r\\n            --spinner dot
+  \\\\\\r\\n            --title \\\"$title\\\"
+  \\\\\\r\\n            --show-error \\\\\\r\\n            --
+  \\\"$@\\\"\\r\\n    else\\r\\n        echo -e \\\"${_CYAN}⟳${_NC}
+  $title\\\"\\r\\n        \\\"$@\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nask_yes_no()
+  {\\r\\n    local prompt=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum confirm \\\"$prompt\\\" && return 0 || return
+  1\\r\\n    else\\r\\n        while true; do\\r\\n            read -p
+  \\\"$prompt [y/n]: \\\" yn\\r\\n            case $yn
+  in\\r\\n                [Yy]* ) return 0;;\\r\\n                [Nn]* ) return
+  1;;\\r\\n                * ) echo \\\"Please answer yes or
+  no.\\\";;\\r\\n            esac\\r\\n        done\\r\\n    fi\\r\\n}\\r\\n\\r\
+  \\nlog_progress() {\\r\\n    local text=\\\"$1\\\"\\r\\n    local
+  count=\\\"$2\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            \\\"  [$count]
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_CYAN}[$count]${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\ndetect_hardware_type() {\\r\\n    if
+  ls /sys/class/power_supply/BAT* >/dev/null 2>&1 || [ -d
+  /sys/class/power_supply/battery ]; then\\r\\n        echo
+  \\\"laptop\\\"\\r\\n    else\\r\\n        echo
+  \\\"desktop\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nhas_nvidia_gpu()
+  {\\r\\n    lspci | grep -i nvidia &>/dev/null\\r\\n}\\r\\n\\r\\nremove_path()
+  {\\r\\n    local target=\\\"$1\\\"\\r\\n\\r\\n    if [ -L \\\"$target\\\" ] &&
+  [ ! -e \\\"$target\\\" ]; then\\r\\n        rm -f
+  \\\"$target\\\"\\r\\n    elif [ -e \\\"$target\\\" ]; then\\r\\n        rm -rf
+  \\\"$target\\\"\\r\\n    fi\\r\\n}\\r\\n\"},\"summaryData\":{\"fileName\":\"h\
+  elpers.sh\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dot\
+  files\\\\install\\\\lib\\\\helpers.sh\",\"updatedLinesCount\":1,\"removedLine\
+  sCount\":0,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri\
+  -dotfiles\",\"relativePath\":\"install\\\\lib\\\\helpers.sh\",\"isCreated\":f\
+  alse,\"originalContent\":\"#!/bin/bash\\r\\n\\r\\n_GREEN='\\\\033[0;32m'\\r\\\
+  n_BLUE='\\\\033[0;34m'\\r\\n_YELLOW='\\\\033[1;33m'\\r\\n_RED='\\\\033[0;31m'\
+  \\r\\n_CYAN='\\\\033[0;36m'\\r\\n_NC='\\\\033[0m'\\r\\n\\r\\n_ICON_STEP=\\\"▸\
+  \\\"\\r\\n_ICON_INFO=\\\"→\\\"\\r\\n_ICON_SUCCESS=\\\"✓\\\"\\r\\n_ICON_ERROR=\
+  \\\"✗\\\"\\r\\n_ICON_ARROW=\\\"›\\\"\\r\\n\\r\\n_has_gum() {\\r\\n    command
+  -v gum &> /dev/null\\r\\n}\\r\\n\\r\\nis_installed() {\\r\\n    pacman -Q
+  \\\"$1\\\" &>/dev/null\\r\\n}\\r\\n\\r\\nensure_gum() {\\r\\n    if !
+  is_installed \\\"gum\\\"; then\\r\\n        echo \\\"Installing gum for better
+  UI...\\\"\\r\\n        sudo pacman -S --noconfirm
+  gum\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_header() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --border double
+  \\\\\\r\\n            --border-foreground 108 \\\\\\r\\n            --padding
+  \\\"0 2\\\" \\\\\\r\\n            --margin \\\"1 0\\\"
+  \\\\\\r\\n            --width 50 \\\\\\r\\n            --align center
+  \\\\\\r\\n            \\\"$text\\\"\\r\\n        echo\\r\\n    else\\r\\n        \
+  echo -e
+  \\\"\\\\n${_GREEN}════════════════════════════════════════${_NC}\\\"\\r\\n        \
+  echo -e \\\"${_GREEN}  $text${_NC}\\\"\\r\\n        echo -e
+  \\\"${_GREEN}════════════════════════════════════════${_NC}\\\\n\\\"\\r\\n    \
+  fi\\r\\n}\\r\\n\\r\\nlog_step() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"$_ICON_STEP
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"\\\\n${_GREEN}$_ICON_STEP${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_info() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 246 \\\\\\r\\n            \\\"  $_ICON_INFO
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_YELLOW}$_ICON_INFO${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_success() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108
+  \\\\\\r\\n            \\\"  $_ICON_SUCCESS
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"  ${_GREEN}$_ICON_SUCCESS${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_error() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 196 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"  $_ICON_ERROR
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_RED}$_ICON_ERROR${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_detail() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 241
+  \\\\\\r\\n            \\\"    $_ICON_ARROW
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"    ${_CYAN}$_ICON_ARROW${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nspinner() {\\r\\n    local
+  title=\\\"$1\\\"\\r\\n    shift\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum spin \\\\\\r\\n            --spinner dot
+  \\\\\\r\\n            --title \\\"$title\\\"
+  \\\\\\r\\n            --show-error \\\\\\r\\n            --
+  \\\"$@\\\"\\r\\n    else\\r\\n        echo -e \\\"${_CYAN}⟳${_NC}
+  $title\\\"\\r\\n        \\\"$@\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nask_yes_no()
+  {\\r\\n    local prompt=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum confirm \\\"$prompt\\\" && return 0 || return
+  1\\r\\n    else\\r\\n        while true; do\\r\\n            read -p
+  \\\"$prompt [y/n]: \\\" yn\\r\\n            case $yn
+  in\\r\\n                [Yy]* ) return 0;;\\r\\n                [Nn]* ) return
+  1;;\\r\\n                * ) echo \\\"Please answer yes or
+  no.\\\";;\\r\\n            esac\\r\\n        done\\r\\n    fi\\r\\n}\\r\\n\\r\
+  \\nlog_progress() {\\r\\n    local text=\\\"$1\\\"\\r\\n    local
+  count=\\\"$2\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            \\\"  [$count]
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_CYAN}[$count]${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\ndetect_hardware_type() {\\r\\n    if
+  ls /sys/class/power_supply/BAT* >/dev/null 2>&1 || [ -d
+  /sys/class/power_supply/battery ]; then\\r\\n        echo
+  \\\"laptop\\\"\\r\\n    else\\r\\n        echo
+  \\\"desktop\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nhas_nvidia_gpu()
+  {\\r\\n    lspci | grep -i nvidia &>/dev/null\\r\\n}\\r\\n\\r\\nremove_path()
+  {\\r\\n    local target=\\\"$1\\\"\\r\\n\\r\\n    if [ -L \\\"$target\\\" ] &&
+  [ ! -e \\\"$target\\\" ]; then\\r\\n        rm -f
+  \\\"$target\\\"\\r\\n    elif [ -e \\\"$target\\\" ]; then\\r\\n        rm -rf
+  \\\"$target\\\"\\r\\n    fi\\r\\n}\\r\\n\"}},\"summaryData\":{\"fileName\":\"\
+  helpers.sh\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-do\
+  tfiles\\\\install\\\\lib\\\\helpers.sh\",\"updatedLinesCount\":1,\"removedLin\
+  esCount\":0,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-nir\
+  i-dotfiles\",\"relativePath\":\"install\\\\lib\\\\helpers.sh\",\"isCreated\":\
+  false,\"originalContent\":\"#!/bin/bash\\r\\n\\r\\n_GREEN='\\\\033[0;32m'\\r\
+  \\n_BLUE='\\\\033[0;34m'\\r\\n_YELLOW='\\\\033[1;33m'\\r\\n_RED='\\\\033[0;31\
+  m'\\r\\n_CYAN='\\\\033[0;36m'\\r\\n_NC='\\\\033[0m'\\r\\n\\r\\n_ICON_STEP=\\\
+  \"▸\\\"\\r\\n_ICON_INFO=\\\"→\\\"\\r\\n_ICON_SUCCESS=\\\"✓\\\"\\r\\n_ICON_ERR\
+  OR=\\\"✗\\\"\\r\\n_ICON_ARROW=\\\"›\\\"\\r\\n\\r\\n_has_gum()
+  {\\r\\n    command -v gum &> /dev/null\\r\\n}\\r\\n\\r\\nis_installed()
+  {\\r\\n    pacman -Q \\\"$1\\\" &>/dev/null\\r\\n}\\r\\n\\r\\nensure_gum()
+  {\\r\\n    if ! is_installed \\\"gum\\\"; then\\r\\n        echo
+  \\\"Installing gum for better UI...\\\"\\r\\n        sudo pacman -S
+  --noconfirm gum\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_header() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --border double
+  \\\\\\r\\n            --border-foreground 108 \\\\\\r\\n            --padding
+  \\\"0 2\\\" \\\\\\r\\n            --margin \\\"1 0\\\"
+  \\\\\\r\\n            --width 50 \\\\\\r\\n            --align center
+  \\\\\\r\\n            \\\"$text\\\"\\r\\n        echo\\r\\n    else\\r\\n        \
+  echo -e
+  \\\"\\\\n${_GREEN}════════════════════════════════════════${_NC}\\\"\\r\\n        \
+  echo -e \\\"${_GREEN}  $text${_NC}\\\"\\r\\n        echo -e
+  \\\"${_GREEN}════════════════════════════════════════${_NC}\\\\n\\\"\\r\\n    \
+  fi\\r\\n}\\r\\n\\r\\nlog_step() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"$_ICON_STEP
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"\\\\n${_GREEN}$_ICON_STEP${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_info() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 246 \\\\\\r\\n            \\\"  $_ICON_INFO
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_YELLOW}$_ICON_INFO${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_success() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108
+  \\\\\\r\\n            \\\"  $_ICON_SUCCESS
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"  ${_GREEN}$_ICON_SUCCESS${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_error() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 196 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"  $_ICON_ERROR
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_RED}$_ICON_ERROR${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_detail() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 241
+  \\\\\\r\\n            \\\"    $_ICON_ARROW
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"    ${_CYAN}$_ICON_ARROW${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nspinner() {\\r\\n    local
+  title=\\\"$1\\\"\\r\\n    shift\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum spin \\\\\\r\\n            --spinner dot
+  \\\\\\r\\n            --title \\\"$title\\\"
+  \\\\\\r\\n            --show-error \\\\\\r\\n            --
+  \\\"$@\\\"\\r\\n    else\\r\\n        echo -e \\\"${_CYAN}⟳${_NC}
+  $title\\\"\\r\\n        \\\"$@\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nask_yes_no()
+  {\\r\\n    local prompt=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum confirm \\\"$prompt\\\" && return 0 || return
+  1\\r\\n    else\\r\\n        while true; do\\r\\n            read -p
+  \\\"$prompt [y/n]: \\\" yn\\r\\n            case $yn
+  in\\r\\n                [Yy]* ) return 0;;\\r\\n                [Nn]* ) return
+  1;;\\r\\n                * ) echo \\\"Please answer yes or
+  no.\\\";;\\r\\n            esac\\r\\n        done\\r\\n    fi\\r\\n}\\r\\n\\r\
+  \\nlog_progress() {\\r\\n    local text=\\\"$1\\\"\\r\\n    local
+  count=\\\"$2\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            \\\"  [$count]
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_CYAN}[$count]${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\ndetect_hardware_type() {\\r\\n    if
+  ls /sys/class/power_supply/BAT* >/dev/null 2>&1 || [ -d
+  /sys/class/power_supply/battery ]; then\\r\\n        echo
+  \\\"laptop\\\"\\r\\n    else\\r\\n        echo
+  \\\"desktop\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nhas_nvidia_gpu()
+  {\\r\\n    lspci | grep -i nvidia &>/dev/null\\r\\n}\\r\\n\\r\\nremove_path()
+  {\\r\\n    local target=\\\"$1\\\"\\r\\n\\r\\n    if [ -L \\\"$target\\\" ] &&
+  [ ! -e \\\"$target\\\" ]; then\\r\\n        rm -f
+  \\\"$target\\\"\\r\\n    elif [ -e \\\"$target\\\" ]; then\\r\\n        rm -rf
+  \\\"$target\\\"\\r\\n    fi\\r\\n}\\r\\n\"},\"duration\":4},\"responseId\":\"\
+  e768a12b-7053-4d1c-8ab9-21995a23efec\"},{\"id\":\"chatcmpl-tool-0f1dc3edb17f4\
+  e94936e6e723ae90901\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\
+  \"agent\",\"createdAt\":1778425736109,\"status\":\"done\",\"xTargetHeader\":\
+  \"MTAuMjMzLjkzLjEzNQ==\",\"toolData\":{\"name\":\"str_replace\",\"parameters\
+  \":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\ins\
+  tall\\\\lib\\\\helpers.sh\",\"from\":{\"text\":\"sudo pacman -S --noconfirm
+  gum\"},\"to\":\"sudo dnf install -y
+  gum\"},\"result\":{\"success\":true,\"data\":{\"changedLineNumbers\":[27],\"o\
+  riginal_content\":\"#!/bin/bash\\r\\n\\r\\n_GREEN='\\\\033[0;32m'\\r\\n_BLUE='\
+  \\\\033[0;34m'\\r\\n_YELLOW='\\\\033[1;33m'\\r\\n_RED='\\\\033[0;31m'\\r\\n_C\
+  YAN='\\\\033[0;36m'\\r\\n_NC='\\\\033[0m'\\r\\n\\r\\n_ICON_STEP=\\\"▸\\\"\\r\
+  \\n_ICON_INFO=\\\"→\\\"\\r\\n_ICON_SUCCESS=\\\"✓\\\"\\r\\n_ICON_ERROR=\\\"✗\\\
+  \"\\r\\n_ICON_ARROW=\\\"›\\\"\\r\\n\\r\\n_has_gum() {\\r\\n    command -v gum
+  &> /dev/null\\r\\n}\\r\\n\\r\\nis_installed() {\\r\\n    rpm -q \\\"$1\\\"
+  &>/dev/null\\r\\n}\\r\\n\\r\\nensure_gum() {\\r\\n    if ! is_installed
+  \\\"gum\\\"; then\\r\\n        echo \\\"Installing gum for better
+  UI...\\\"\\r\\n        sudo pacman -S --noconfirm
+  gum\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_header() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --border double
+  \\\\\\r\\n            --border-foreground 108 \\\\\\r\\n            --padding
+  \\\"0 2\\\" \\\\\\r\\n            --margin \\\"1 0\\\"
+  \\\\\\r\\n            --width 50 \\\\\\r\\n            --align center
+  \\\\\\r\\n            \\\"$text\\\"\\r\\n        echo\\r\\n    else\\r\\n        \
+  echo -e
+  \\\"\\\\n${_GREEN}════════════════════════════════════════${_NC}\\\"\\r\\n        \
+  echo -e \\\"${_GREEN}  $text${_NC}\\\"\\r\\n        echo -e
+  \\\"${_GREEN}════════════════════════════════════════${_NC}\\\\n\\\"\\r\\n    \
+  fi\\r\\n}\\r\\n\\r\\nlog_step() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"$_ICON_STEP
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"\\\\n${_GREEN}$_ICON_STEP${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_info() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 246 \\\\\\r\\n            \\\"  $_ICON_INFO
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_YELLOW}$_ICON_INFO${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_success() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108
+  \\\\\\r\\n            \\\"  $_ICON_SUCCESS
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"  ${_GREEN}$_ICON_SUCCESS${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_error() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 196 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"  $_ICON_ERROR
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_RED}$_ICON_ERROR${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_detail() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 241
+  \\\\\\r\\n            \\\"    $_ICON_ARROW
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"    ${_CYAN}$_ICON_ARROW${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nspinner() {\\r\\n    local
+  title=\\\"$1\\\"\\r\\n    shift\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum spin \\\\\\r\\n            --spinner dot
+  \\\\\\r\\n            --title \\\"$title\\\"
+  \\\\\\r\\n            --show-error \\\\\\r\\n            --
+  \\\"$@\\\"\\r\\n    else\\r\\n        echo -e \\\"${_CYAN}⟳${_NC}
+  $title\\\"\\r\\n        \\\"$@\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nask_yes_no()
+  {\\r\\n    local prompt=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum confirm \\\"$prompt\\\" && return 0 || return
+  1\\r\\n    else\\r\\n        while true; do\\r\\n            read -p
+  \\\"$prompt [y/n]: \\\" yn\\r\\n            case $yn
+  in\\r\\n                [Yy]* ) return 0;;\\r\\n                [Nn]* ) return
+  1;;\\r\\n                * ) echo \\\"Please answer yes or
+  no.\\\";;\\r\\n            esac\\r\\n        done\\r\\n    fi\\r\\n}\\r\\n\\r\
+  \\nlog_progress() {\\r\\n    local text=\\\"$1\\\"\\r\\n    local
+  count=\\\"$2\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            \\\"  [$count]
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_CYAN}[$count]${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\ndetect_hardware_type() {\\r\\n    if
+  ls /sys/class/power_supply/BAT* >/dev/null 2>&1 || [ -d
+  /sys/class/power_supply/battery ]; then\\r\\n        echo
+  \\\"laptop\\\"\\r\\n    else\\r\\n        echo
+  \\\"desktop\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nhas_nvidia_gpu()
+  {\\r\\n    lspci | grep -i nvidia &>/dev/null\\r\\n}\\r\\n\\r\\nremove_path()
+  {\\r\\n    local target=\\\"$1\\\"\\r\\n\\r\\n    if [ -L \\\"$target\\\" ] &&
+  [ ! -e \\\"$target\\\" ]; then\\r\\n        rm -f
+  \\\"$target\\\"\\r\\n    elif [ -e \\\"$target\\\" ]; then\\r\\n        rm -rf
+  \\\"$target\\\"\\r\\n    fi\\r\\n}\\r\\n\"},\"summaryData\":{\"fileName\":\"h\
+  elpers.sh\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dot\
+  files\\\\install\\\\lib\\\\helpers.sh\",\"updatedLinesCount\":1,\"removedLine\
+  sCount\":0,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri\
+  -dotfiles\",\"relativePath\":\"install\\\\lib\\\\helpers.sh\",\"isCreated\":f\
+  alse,\"originalContent\":\"#!/bin/bash\\r\\n\\r\\n_GREEN='\\\\033[0;32m'\\r\\\
+  n_BLUE='\\\\033[0;34m'\\r\\n_YELLOW='\\\\033[1;33m'\\r\\n_RED='\\\\033[0;31m'\
+  \\r\\n_CYAN='\\\\033[0;36m'\\r\\n_NC='\\\\033[0m'\\r\\n\\r\\n_ICON_STEP=\\\"▸\
+  \\\"\\r\\n_ICON_INFO=\\\"→\\\"\\r\\n_ICON_SUCCESS=\\\"✓\\\"\\r\\n_ICON_ERROR=\
+  \\\"✗\\\"\\r\\n_ICON_ARROW=\\\"›\\\"\\r\\n\\r\\n_has_gum() {\\r\\n    command
+  -v gum &> /dev/null\\r\\n}\\r\\n\\r\\nis_installed() {\\r\\n    rpm -q
+  \\\"$1\\\" &>/dev/null\\r\\n}\\r\\n\\r\\nensure_gum() {\\r\\n    if !
+  is_installed \\\"gum\\\"; then\\r\\n        echo \\\"Installing gum for better
+  UI...\\\"\\r\\n        sudo pacman -S --noconfirm
+  gum\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_header() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --border double
+  \\\\\\r\\n            --border-foreground 108 \\\\\\r\\n            --padding
+  \\\"0 2\\\" \\\\\\r\\n            --margin \\\"1 0\\\"
+  \\\\\\r\\n            --width 50 \\\\\\r\\n            --align center
+  \\\\\\r\\n            \\\"$text\\\"\\r\\n        echo\\r\\n    else\\r\\n        \
+  echo -e
+  \\\"\\\\n${_GREEN}════════════════════════════════════════${_NC}\\\"\\r\\n        \
+  echo -e \\\"${_GREEN}  $text${_NC}\\\"\\r\\n        echo -e
+  \\\"${_GREEN}════════════════════════════════════════${_NC}\\\\n\\\"\\r\\n    \
+  fi\\r\\n}\\r\\n\\r\\nlog_step() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"$_ICON_STEP
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"\\\\n${_GREEN}$_ICON_STEP${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_info() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 246 \\\\\\r\\n            \\\"  $_ICON_INFO
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_YELLOW}$_ICON_INFO${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_success() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108
+  \\\\\\r\\n            \\\"  $_ICON_SUCCESS
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"  ${_GREEN}$_ICON_SUCCESS${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_error() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 196 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"  $_ICON_ERROR
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_RED}$_ICON_ERROR${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_detail() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 241
+  \\\\\\r\\n            \\\"    $_ICON_ARROW
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"    ${_CYAN}$_ICON_ARROW${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nspinner() {\\r\\n    local
+  title=\\\"$1\\\"\\r\\n    shift\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum spin \\\\\\r\\n            --spinner dot
+  \\\\\\r\\n            --title \\\"$title\\\"
+  \\\\\\r\\n            --show-error \\\\\\r\\n            --
+  \\\"$@\\\"\\r\\n    else\\r\\n        echo -e \\\"${_CYAN}⟳${_NC}
+  $title\\\"\\r\\n        \\\"$@\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nask_yes_no()
+  {\\r\\n    local prompt=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum confirm \\\"$prompt\\\" && return 0 || return
+  1\\r\\n    else\\r\\n        while true; do\\r\\n            read -p
+  \\\"$prompt [y/n]: \\\" yn\\r\\n            case $yn
+  in\\r\\n                [Yy]* ) return 0;;\\r\\n                [Nn]* ) return
+  1;;\\r\\n                * ) echo \\\"Please answer yes or
+  no.\\\";;\\r\\n            esac\\r\\n        done\\r\\n    fi\\r\\n}\\r\\n\\r\
+  \\nlog_progress() {\\r\\n    local text=\\\"$1\\\"\\r\\n    local
+  count=\\\"$2\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            \\\"  [$count]
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_CYAN}[$count]${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\ndetect_hardware_type() {\\r\\n    if
+  ls /sys/class/power_supply/BAT* >/dev/null 2>&1 || [ -d
+  /sys/class/power_supply/battery ]; then\\r\\n        echo
+  \\\"laptop\\\"\\r\\n    else\\r\\n        echo
+  \\\"desktop\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nhas_nvidia_gpu()
+  {\\r\\n    lspci | grep -i nvidia &>/dev/null\\r\\n}\\r\\n\\r\\nremove_path()
+  {\\r\\n    local target=\\\"$1\\\"\\r\\n\\r\\n    if [ -L \\\"$target\\\" ] &&
+  [ ! -e \\\"$target\\\" ]; then\\r\\n        rm -f
+  \\\"$target\\\"\\r\\n    elif [ -e \\\"$target\\\" ]; then\\r\\n        rm -rf
+  \\\"$target\\\"\\r\\n    fi\\r\\n}\\r\\n\"}},\"summaryData\":{\"fileName\":\"\
+  helpers.sh\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-do\
+  tfiles\\\\install\\\\lib\\\\helpers.sh\",\"updatedLinesCount\":1,\"removedLin\
+  esCount\":0,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-nir\
+  i-dotfiles\",\"relativePath\":\"install\\\\lib\\\\helpers.sh\",\"isCreated\":\
+  false,\"originalContent\":\"#!/bin/bash\\r\\n\\r\\n_GREEN='\\\\033[0;32m'\\r\
+  \\n_BLUE='\\\\033[0;34m'\\r\\n_YELLOW='\\\\033[1;33m'\\r\\n_RED='\\\\033[0;31\
+  m'\\r\\n_CYAN='\\\\033[0;36m'\\r\\n_NC='\\\\033[0m'\\r\\n\\r\\n_ICON_STEP=\\\
+  \"▸\\\"\\r\\n_ICON_INFO=\\\"→\\\"\\r\\n_ICON_SUCCESS=\\\"✓\\\"\\r\\n_ICON_ERR\
+  OR=\\\"✗\\\"\\r\\n_ICON_ARROW=\\\"›\\\"\\r\\n\\r\\n_has_gum()
+  {\\r\\n    command -v gum &> /dev/null\\r\\n}\\r\\n\\r\\nis_installed()
+  {\\r\\n    rpm -q \\\"$1\\\" &>/dev/null\\r\\n}\\r\\n\\r\\nensure_gum()
+  {\\r\\n    if ! is_installed \\\"gum\\\"; then\\r\\n        echo
+  \\\"Installing gum for better UI...\\\"\\r\\n        sudo pacman -S
+  --noconfirm gum\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_header() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --border double
+  \\\\\\r\\n            --border-foreground 108 \\\\\\r\\n            --padding
+  \\\"0 2\\\" \\\\\\r\\n            --margin \\\"1 0\\\"
+  \\\\\\r\\n            --width 50 \\\\\\r\\n            --align center
+  \\\\\\r\\n            \\\"$text\\\"\\r\\n        echo\\r\\n    else\\r\\n        \
+  echo -e
+  \\\"\\\\n${_GREEN}════════════════════════════════════════${_NC}\\\"\\r\\n        \
+  echo -e \\\"${_GREEN}  $text${_NC}\\\"\\r\\n        echo -e
+  \\\"${_GREEN}════════════════════════════════════════${_NC}\\\\n\\\"\\r\\n    \
+  fi\\r\\n}\\r\\n\\r\\nlog_step() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        echo\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"$_ICON_STEP
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"\\\\n${_GREEN}$_ICON_STEP${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_info() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 246 \\\\\\r\\n            \\\"  $_ICON_INFO
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_YELLOW}$_ICON_INFO${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_success() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108
+  \\\\\\r\\n            \\\"  $_ICON_SUCCESS
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"  ${_GREEN}$_ICON_SUCCESS${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_error() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 196 \\\\\\r\\n            --bold
+  \\\\\\r\\n            \\\"  $_ICON_ERROR
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_RED}$_ICON_ERROR${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nlog_detail() {\\r\\n    local
+  text=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 241
+  \\\\\\r\\n            \\\"    $_ICON_ARROW
+  $text\\\"\\r\\n    else\\r\\n        echo -e
+  \\\"    ${_CYAN}$_ICON_ARROW${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nspinner() {\\r\\n    local
+  title=\\\"$1\\\"\\r\\n    shift\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum spin \\\\\\r\\n            --spinner dot
+  \\\\\\r\\n            --title \\\"$title\\\"
+  \\\\\\r\\n            --show-error \\\\\\r\\n            --
+  \\\"$@\\\"\\r\\n    else\\r\\n        echo -e \\\"${_CYAN}⟳${_NC}
+  $title\\\"\\r\\n        \\\"$@\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nask_yes_no()
+  {\\r\\n    local prompt=\\\"$1\\\"\\r\\n\\r\\n    if _has_gum;
+  then\\r\\n        gum confirm \\\"$prompt\\\" && return 0 || return
+  1\\r\\n    else\\r\\n        while true; do\\r\\n            read -p
+  \\\"$prompt [y/n]: \\\" yn\\r\\n            case $yn
+  in\\r\\n                [Yy]* ) return 0;;\\r\\n                [Nn]* ) return
+  1;;\\r\\n                * ) echo \\\"Please answer yes or
+  no.\\\";;\\r\\n            esac\\r\\n        done\\r\\n    fi\\r\\n}\\r\\n\\r\
+  \\nlog_progress() {\\r\\n    local text=\\\"$1\\\"\\r\\n    local
+  count=\\\"$2\\\"\\r\\n\\r\\n    if _has_gum; then\\r\\n        gum style
+  \\\\\\r\\n            --foreground 108 \\\\\\r\\n            \\\"  [$count]
+  $text\\\"\\r\\n    else\\r\\n        echo -e \\\"  ${_CYAN}[$count]${_NC}
+  $text\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\ndetect_hardware_type() {\\r\\n    if
+  ls /sys/class/power_supply/BAT* >/dev/null 2>&1 || [ -d
+  /sys/class/power_supply/battery ]; then\\r\\n        echo
+  \\\"laptop\\\"\\r\\n    else\\r\\n        echo
+  \\\"desktop\\\"\\r\\n    fi\\r\\n}\\r\\n\\r\\nhas_nvidia_gpu()
+  {\\r\\n    lspci | grep -i nvidia &>/dev/null\\r\\n}\\r\\n\\r\\nremove_path()
+  {\\r\\n    local target=\\\"$1\\\"\\r\\n\\r\\n    if [ -L \\\"$target\\\" ] &&
+  [ ! -e \\\"$target\\\" ]; then\\r\\n        rm -f
+  \\\"$target\\\"\\r\\n    elif [ -e \\\"$target\\\" ]; then\\r\\n        rm -rf
+  \\\"$target\\\"\\r\\n    fi\\r\\n}\\r\\n\"},\"duration\":4},\"responseId\":\"\
+  a8f8f256-dedb-410e-ad7c-7ae60749f56c\"},{\"id\":\"chatcmpl-tool-f8b2d155c0f84\
+  4e28e0be2f7fac2a886\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\
+  \"agent\",\"createdAt\":1778425738116,\"status\":\"done\",\"xTargetHeader\":\
+  \"MTAuMjMzLjEwNy4yMzQ=\",\"toolData\":{\"name\":\"read_file\",\"parameters\":{\
+  \"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\
+  \\\\setup-system\"},\"result\":{\"success\":true,\"data\":{\"content\":\"#!/b\
+  in/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! pacman -Q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"summaryData\":{\"isFull\":true,\"workspacePath\":\"c:\
+  \\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"in\
+  stall\\\\setup-system\",\"fileName\":\"setup-system\",\"filePath\":\"c:\\\\Us\
+  ers\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\setup-system\"}\
+  },\"summaryData\":{\"isFull\":true,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\
+  \\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"install\\\\setup-system\
+  \",\"fileName\":\"setup-system\",\"filePath\":\"c:\\\\Users\\\\Torvik\\\\sour\
+  ce\\\\fedora-niri-dotfiles\\\\install\\\\setup-system\"},\"duration\":2},\"re\
+  sponseId\":\"069a47d0-fc52-4baa-b833-a0fb32ce29cc\"},{\"id\":\"chatcmpl-tool-\
+  f166acae20cb4679809c2d2f53934184\",\"type\":\"tool\",\"role\":\"assistant\",\
+  \"chatMode\":\"agent\",\"createdAt\":1778425740821,\"status\":\"done\",\"xTar\
+  getHeader\":\"MTAuMjMzLjEwNy4yMzQ=\",\"toolData\":{\"name\":\"str_replace\",\
+  \"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dot\
+  files\\\\install\\\\setup-system\",\"from\":{\"text\":\"if ! pacman -Q ly
+  &>/dev/null; then\"},\"to\":\"if ! rpm -q ly &>/dev/null;
+  then\"},\"result\":{\"success\":true,\"data\":{\"changedLineNumbers\":[117],\
+  \"original_content\":\"#!/bin/bash\\r\\n\\r\\nset
+  -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! pacman -Q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"summaryData\":{\"fileName\":\"setup-system\",\"fileP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! pacman -Q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"}},\"summaryData\":{\"fileName\":\"setup-system\",\"file\
+  Path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! pacman -Q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"duration\":5},\"responseId\":\"d6a864a6-4d76-4b74-b1\
+  1f-a1eb92d78ff3\"},{\"id\":\"chatcmpl-tool-ce67cb28d0b94dc19f0f73e6030c3469\",\
+  \"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\"\
+  :1778425743186,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjc2LjE0MQ==\",\
+  \"toolData\":{\"name\":\"str_replace\",\"parameters\":{\"path\":\"c:\\\\Users\
+  \\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\setup-system\",\"f\
+  rom\":{\"text\":\"sudo cp \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\"},\"to\":\"sudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\"},\"result\":{\"success\":true,\"data\":{\"changedLineN\
+  umbers\":[34],\"original_content\":\"#!/bin/bash\\r\\n\\r\\nset
+  -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"summaryData\":{\"fileName\":\"setup-system\",\"fileP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"}},\"summaryData\":{\"fileName\":\"setup-system\",\"file\
+  Path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/pacman/pacman.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"duration\":4},\"responseId\":\"270257fe-4d20-420b-99\
+  a2-3b115fbb653e\"},{\"id\":\"chatcmpl-tool-c1ffa569824e412aa61f074295996c0f\",\
+  \"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\"\
+  :1778425745836,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjExMC4xNjI=\",\
+  \"toolData\":{\"name\":\"run_command\",\"parameters\":{\"cwd\":\"c:\\\\Users\\\
+  \\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"command\":\"mkdir -p
+  c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fedora\
+  \",\"commandType\":\"mkdir\"},\"result\":{\"success\":false,\"message\":\"Inv\
+  alidPath: Invalid working directory path:
+  c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"errorCode\":\"Inv\
+  alidPath\",\"errorDetails\":\"Ft: Invalid working directory path:
+  c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\n\\tat w_.run
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:378:1027)\\n\\tat #u
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:13992)\\n\\tat async #l
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:16646)\"},\"duration\":2},\"responseId\
+  \":\"724735a1-9021-4f78-8908-9ee7aed8c0fc\"},{\"id\":\"chatcmpl-tool-2e1cf4f3\
+  469b49e9a482a474e1c2bc2b\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\
+  \":\"agent\",\"createdAt\":1778425763129,\"status\":\"done\",\"xTargetHeader\
+  \":\"MTAuMjMzLjExMC4xNjI=\",\"toolData\":{\"name\":\"run_command\",\"paramete\
+  rs\":{\"cwd\":\"c:\\\\Users\\\\Torvik\\\\source\",\"command\":\"mkdir -p
+  \\\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fed\
+  ora\\\"\",\"commandType\":\"mkdir\"},\"result\":{\"success\":false,\"message\
+  \":\"InvalidPath: Invalid working directory path:
+  c:\\\\Users\\\\Torvik\\\\source\",\"errorCode\":\"InvalidPath\",\"errorDetails\
+  \":\"Ft: Invalid working directory path:
+  c:\\\\Users\\\\Torvik\\\\source\\n\\tat w_.run
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:378:1027)\\n\\tat #u
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:13992)\\n\\tat async #l
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:16646)\"},\"duration\":1},\"responseId\
+  \":\"fb53084f-45c3-42ed-8250-b2c29f80cfe6\"},{\"id\":\"chatcmpl-tool-a593e0f9\
+  fee64590b5baadb4c94db4cb\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\
+  \":\"agent\",\"createdAt\":1778425769481,\"status\":\"done\",\"xTargetHeader\
+  \":\"MTAuMjMzLjExMC4xNjI=\",\"toolData\":{\"name\":\"run_command\",\"paramete\
+  rs\":{\"cwd\":\"c:\\\\Users\\\\Torvik\",\"command\":\"mkdir -p
+  \\\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fed\
+  ora\\\"\",\"commandType\":\"mkdir\"},\"result\":{\"success\":false,\"message\
+  \":\"InvalidPath: Invalid working directory path:
+  c:\\\\Users\\\\Torvik\",\"errorCode\":\"InvalidPath\",\"errorDetails\":\"Ft:
+  Invalid working directory path: c:\\\\Users\\\\Torvik\\n\\tat w_.run
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:378:1027)\\n\\tat #u
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:13992)\\n\\tat async #l
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:16646)\"},\"duration\":1},\"responseId\
+  \":\"8d2436f3-ebf6-42cd-bb80-bca315e5b031\"},{\"id\":\"chatcmpl-tool-f3550d6e\
+  b6314d3580f25be1f88c0589\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\
+  \":\"agent\",\"createdAt\":1778425806204,\"status\":\"done\",\"xTargetHeader\
+  \":\"MTAuMjMzLjExMC4xNjI=\",\"toolData\":{\"name\":\"str_replace\",\"paramete\
+  rs\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\i\
+  nstall\\\\setup-system\",\"from\":{\"text\":\"PACMAN_CONF=\\\"/etc/pacman.conf\
+  \\\"\"},\"to\":\"PACMAN_CONF=\\\"/etc/dnf/dnf.conf\\\"\"},\"result\":{\"succe\
+  ss\":true,\"data\":{\"changedLineNumbers\":[31],\"original_content\":\"#!/bin\
+  /bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"summaryData\":{\"fileName\":\"setup-system\",\"fileP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"}},\"summaryData\":{\"fileName\":\"setup-system\",\"file\
+  Path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/pacman.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"duration\":3},\"responseId\":\"4f24abcd-4db4-4394-9c\
+  81-a87e4c9eef31\"},{\"id\":\"chatcmpl-tool-9582e0c00b6a47e1bf96d5f81ba8c126\",\
+  \"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\"\
+  :1778425827569,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjExMC4xNjI=\",\
+  \"toolData\":{\"name\":\"str_replace\",\"parameters\":{\"path\":\"c:\\\\Users\
+  \\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\setup-system\",\"f\
+  rom\":{\"text\":\"sudo cp \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\"},\"to\":\"sudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\"},\"result\":{\"success\":true,\"data\":{\"changedLineN\
+  umbers\":[34],\"original_content\":\"#!/bin/bash\\r\\n\\r\\nset
+  -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/dnf/dnf.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"summaryData\":{\"fileName\":\"setup-system\",\"fileP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/dnf/dnf.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"}},\"summaryData\":{\"fileName\":\"setup-system\",\"file\
+  Path\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\
+  \\setup-system\",\"updatedLinesCount\":1,\"removedLinesCount\":0,\"workspaceP\
+  ath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativeP\
+  ath\":\"install\\\\setup-system\",\"isCreated\":false,\"originalContent\":\"#\
+  !/bin/bash\\r\\n\\r\\nset -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\n# Configure gnome-keyring PAM\\r\\nlog_info
+  \\\"Configuring gnome-keyring PAM integration...\\\"\\r\\n\\r\\n[ -f
+  \\\"/etc/pam.d/login\\\" ] && backup_file \\\"/etc/pam.d/login\\\"\\r\\n[ -f
+  \\\"/etc/pam.d/passwd\\\" ] && backup_file
+  \\\"/etc/pam.d/passwd\\\"\\r\\n\\r\\n# Configure /etc/pam.d/login\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/login; then\\r\\n  sudo sed -i
+  '/auth.*include.*system-local-login/a
+  auth       optional     pam_gnome_keyring.so' /etc/pam.d/login\\r\\n  sudo sed
+  -i '/session.*include.*system-local-login/a
+  session    optional     pam_gnome_keyring.so auto_start'
+  /etc/pam.d/login\\r\\nfi\\r\\n\\r\\n# Configure /etc/pam.d/passwd\\r\\nif !
+  grep -q \\\"pam_gnome_keyring.so\\\" /etc/pam.d/passwd; then\\r\\n  echo
+  \\\"password\\toptional\\tpam_gnome_keyring.so\\\" | sudo tee -a
+  /etc/pam.d/passwd >/dev/null\\r\\nfi\\r\\n\\r\\nlog_success \\\"gnome-keyring
+  PAM configured\\\"\\r\\n\\r\\n# Configure pacman.conf\\r\\nlog_info
+  \\\"Configuring
+  pacman.conf...\\\"\\r\\nPACMAN_CONF=\\\"/etc/dnf/dnf.conf\\\"\\r\\n\\r\\n[ -f
+  \\\"$PACMAN_CONF\\\" ] && backup_file \\\"$PACMAN_CONF\\\"\\r\\nsudo cp
+  \\\"$DOTFILES_DIR/default/fedora/dnf.conf\\\"
+  \\\"$PACMAN_CONF\\\"\\r\\nlog_success \\\"pacman.conf
+  configured\\\"\\r\\n\\r\\n# Configure UFW\\r\\nif is_installed \\\"ufw\\\";
+  then\\r\\n  log_info \\\"Configuring UFW...\\\"\\r\\n  sudo ufw default deny
+  incoming\\r\\n  sudo ufw default allow outgoing\\r\\n  # sudo ufw allow
+  53317/udp comment 'LocalSend'\\r\\n  # sudo ufw allow 53317/tcp comment
+  'LocalSend'\\r\\n  sudo ufw allow 22/tcp comment 'SSH'\\r\\n  sudo ufw --force
+  enable\\r\\n  sudo systemctl enable ufw\\r\\n  log_success \\\"UFW configured
+  and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"UFW not installed, skipping
+  firewall configuration\\\"\\r\\nfi\\r\\n\\r\\n# Configure git
+  user\\r\\nlog_info \\\"Configuring git user
+  information...\\\"\\r\\n\\r\\nCURRENT_GIT_NAME=$(git config --global user.name
+  2>/dev/null || true)\\r\\nCURRENT_GIT_EMAIL=$(git config --global user.email
+  2>/dev/null || true)\\r\\n\\r\\nif [ -n \\\"$CURRENT_GIT_NAME\\\" ] && [ -n
+  \\\"$CURRENT_GIT_EMAIL\\\" ]; then\\r\\n  log_detail \\\"Git already
+  configured:\\\"\\r\\n  log_detail
+  \\\"  Name:  $CURRENT_GIT_NAME\\\"\\r\\n  log_detail \\\"  Email:
+  $CURRENT_GIT_EMAIL\\\"\\r\\n\\r\\n  if ask_yes_no \\\"Update git config?\\\";
+  then\\r\\n    CURRENT_GIT_NAME=\\\"\\\"\\r\\n    CURRENT_GIT_EMAIL=\\\"\\\"\\r\
+  \\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_NAME\\\" ]; then\\r\\n  if
+  _has_gum; then\\r\\n    GIT_NAME=$(gum input --placeholder \\\"Enter your name
+  (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p \\\"Enter your name:
+  \\\" GIT_NAME\\r\\n  fi\\r\\n\\r\\n  if [ -n \\\"$GIT_NAME\\\" ];
+  then\\r\\n    git config --global user.name
+  \\\"$GIT_NAME\\\"\\r\\n    log_success \\\"Set git user.name:
+  $GIT_NAME\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\nif [ -z \\\"$CURRENT_GIT_EMAIL\\\"
+  ]; then\\r\\n  if _has_gum; then\\r\\n    GIT_EMAIL=$(gum input --placeholder
+  \\\"Enter your email (used for git)\\\" || true)\\r\\n  else\\r\\n    read -p
+  \\\"Enter your email: \\\" GIT_EMAIL\\r\\n  fi\\r\\n\\r\\n  if [ -n
+  \\\"$GIT_EMAIL\\\" ]; then\\r\\n    git config --global user.email
+  \\\"$GIT_EMAIL\\\"\\r\\n    log_success \\\"Set git user.email:
+  $GIT_EMAIL\\\"\\r\\n  fi\\r\\nfi\\r\\n\\r\\n# ly display manager
+  configuration\\r\\n# if is_installed \\\"ly\\\"; then\\r\\n#   log_info
+  \\\"Configuring ly display manager...\\\"\\r\\n#   sudo mkdir -p
+  /etc/systemd/system/ly.service.d\\r\\n#   [ -f
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly.service.d/override.conf\\\"\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly.service.d/override.conf\\r\\n#   sudo systemctl
+  daemon-reload\\r\\n# \\r\\n#   [ -f \\\"/etc/ly/config.ini\\\" ] &&
+  backup_file \\\"/etc/ly/config.ini\\\"\\r\\n#   sudo rm -f
+  /etc/ly/config.ini\\r\\n#   sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\" /etc/ly/config.ini\\r\\n#
+  \\r\\n#   log_success \\\"ly display manager configured\\\"\\r\\n#
+  else\\r\\n#   log_detail \\\"ly not installed, skipping\\\"\\r\\n#
+  fi\\r\\n\\r\\n# ly display manager configuration\\r\\nif is_installed
+  \\\"ly\\\"; then\\r\\n  log_info \\\"Configuring ly display
+  manager...\\\"\\r\\n  \\r\\n  # First, make sure ly is properly
+  installed\\r\\n  if ! rpm -q ly &>/dev/null; then\\r\\n    log_error \\\"ly
+  package is not installed\\\"\\r\\n    return 1\\r\\n  fi\\r\\n  \\r\\n  #
+  Create override directory and copy configs\\r\\n  sudo mkdir -p
+  /etc/systemd/system/ly@tty2.service.d\\r\\n  [ -f
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\" ] && backup_file
+  \\\"/etc/systemd/system/ly@tty2.service.d/override.conf\\\"\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/override.conf\\\"
+  /etc/systemd/system/ly@tty2.service.d/override.conf\\r\\n  \\r\\n  # Reload
+  systemd\\r\\n  sudo systemctl daemon-reload\\r\\n  \\r\\n  # Enable ly to
+  start at boot (using the template service)\\r\\n  sudo systemctl enable
+  ly@tty2.service\\r\\n  \\r\\n  # Disable getty on tty2 to prevent
+  conflicts\\r\\n  sudo systemctl disable getty@tty2.service 2>/dev/null ||
+  true\\r\\n  \\r\\n  # Also disable any other display manager that might be
+  enabled\\r\\n  if [ -L /etc/systemd/system/display-manager.service ];
+  then\\r\\n    OTHER_DM=$(readlink /etc/systemd/system/display-manager.service
+  | xargs basename 2>/dev/null | sed 's/.service//')\\r\\n    if [ -n
+  \\\"$OTHER_DM\\\" ] && [ \\\"$OTHER_DM\\\" != \\\"ly@tty2\\\" ];
+  then\\r\\n      log_info \\\"Disabling other display manager:
+  $OTHER_DM\\\"\\r\\n      sudo systemctl disable \\\"$OTHER_DM.service\\\"
+  2>/dev/null || true\\r\\n    fi\\r\\n  fi\\r\\n  \\r\\n  # Set ly as the
+  default display manager\\r\\n  sudo ln -sf /usr/lib/systemd/system/ly@.service
+  /etc/systemd/system/display-manager.service\\r\\n  \\r\\n  [ -f
+  \\\"/etc/ly/config.ini\\\" ] && backup_file
+  \\\"/etc/ly/config.ini\\\"\\r\\n  sudo rm -f /etc/ly/config.ini\\r\\n  sudo cp
+  \\\"$DOTFILES_DIR/default/ly/config.ini\\\"
+  /etc/ly/config.ini\\r\\n  \\r\\n  log_success \\\"ly display manager
+  configured and enabled\\\"\\r\\nelse\\r\\n  log_detail \\\"ly not installed,
+  skipping\\\"\\r\\nfi\\r\\n\\r\\n# Remove wait on network from system
+  startup\\r\\nlog_info \\\"Disabling
+  systemd-networkd-wait-online.service...\\\"\\r\\nsudo systemctl disable
+  systemd-networkd-wait-online.service 2>/dev/null || true\\r\\n\\r\\n# Enable
+  ssh agent\\r\\nlog_info \\\"Enabling gcr-ssh-agent\\\"\\r\\nsystemctl --user
+  enable --now gcr-ssh-agent.socket\\r\\n\\r\\nsystemctl --user daemon-reload
+  2>/dev/null || log_detail \\\"Failed to reload
+  systemd\\\"\\r\\n\\r\\nlog_detail \\\"Services will start on next login or
+  Niri restart\\\"\\r\\n\\r\\nlog_success \\\"System configuration
+  complete!\\\"\\r\\n\"},\"duration\":3},\"responseId\":\"293e24c5-7877-42ca-93\
+  6b-86cd225c4db9\"},{\"id\":\"chatcmpl-tool-97eea82482784116a59dcdf622ec9f56\",\
+  \"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\"\
+  :1778425856926,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjExMC4xNjI=\",\
+  \"toolData\":{\"name\":\"write_file\",\"parameters\":{\"path\":\"c:\\\\Users\\\
+  \\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fedora\\\\dnf.conf\",\
+  \"content\":\"[main]\\n# See man.dnf.conf for more
+  options\\ngpgcheck=1\\ngpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$rel\
+  easever-$basearch\\ninstallonly_limit=3\\nclean_requirements_on_remove=True\\\
+  nbest=False\\n\\n[baseos]\\nname=Fedora $releasever -
+  $basearch\\nmetalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$\
+  releasever&arch=$basearch\\nenabled=1\\nmetadata_expire=6h\\nrepo_gpgcheck=0\
+  \\ntype=rpm\\n\\n[updates]\\nname=Fedora $releasever - $basearch -
+  Updates\\nmetalink=https://mirrors.fedoraproject.org/metalink?repo=updates-re\
+  leased-f$releasever&arch=$basearch\\nenabled=1\\nmetadata_expire=6h\\nrepo_gp\
+  gcheck=0\\ntype=rpm\\n\\n[updates-testing]\\nname=Fedora $releasever -
+  $basearch - Test
+  Updates\\nmetalink=https://mirrors.fedoraproject.org/metalink?repo=updates-te\
+  sting-f$releasever&arch=$basearch\\nenabled=0\\nmetadata_expire=6h\\nrepo_gpg\
+  check=0\\ntype=rpm\\n\\ndnf makecache\\ndnf
+  update\\n\"},\"result\":{\"success\":false,\"message\":\"DirectoryNotFound:
+  Parent directory does not exist:
+  c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fedora\
+  \",\"errorCode\":\"DirectoryNotFound\",\"errorDetails\":\"Bs: Parent directory
+  does not exist:
+  c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fedora\
+  \\n\\tat E_.run
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:386:2332)\\n\\tat async #u
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:13984)\\n\\tat async #l
+  (c:\\\\Users\\\\Torvik\\\\.vscode-oss\\\\extensions\\\\gigacode.gigacode-vsco\
+  de-26.2.18\\\\dist\\\\extension.js:711:16646)\"},\"duration\":3},\"responseId\
+  \":\"d5b5dfa3-f2ac-4c97-8923-7c5ae5cb52db\"},{\"id\":\"chatcmpl-tool-9b4f2b4d\
+  a8aa4b19a76b56b74e1bed55\",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\
+  \":\"agent\",\"createdAt\":1778425885496,\"status\":\"cancelled\",\"xTargetHe\
+  ader\":\"MTAuMjMzLjExMC4xNjI=\",\"toolData\":{\"name\":\"run_command\",\"para\
+  meters\":{\"cwd\":\"c:\\\\Users\\\\Torvik\\\\source\",\"command\":\"mkdir -p
+  \\\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fed\
+  ora\\\"\",\"commandType\":\"mkdir\"}}}],\"isActive\":false}}"
+saoudrizwan.claude-dev: '{"welcomeViewCompleted":false}'
 workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
@@ -82,33 +2766,40 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
   \"}]}]"
 workbench.activityBar.location: top
-workbench.auxiliaryBar.empty: "true"
+workbench.auxiliaryBar.empty: "false"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
-workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1}]'
+workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.claude-dev-ActivityBar","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.gigacode","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.continue","pinned":true,"visible":false,"order":8}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatPanelParticipantRegistered
   && !chatExtensionInvalid && !chatSetupDisabled && !chatSetupHidden &&
-  !config.chat.disableAIFeatures"}]}]'
-workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["shellscript",true],["ini",true],["git-commit",true],["plaintext",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true}]'
+  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.claude-dev-ActivityBar","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/saoudrizwan.claude-dev-3.82.0-universal/assets/icons/icon.svg","scheme":"file"},"name":"Cline","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.gigacode","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/gigacode.gigacode-vscode-26.2.18/gigacode-icon.png","scheme":"file"},"name":"GigaCode","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.continue","name":"Continue  ","isBuiltin":false}]'
+workbench.auxiliaryBar.size: "772"
+workbench.editor.languageDetectionOpenedLanguages.global: '[["git-commit",true],["lua",true],["css",true],["jsonc",true],["json",true],["properties",true],["ini",true],["dotenv",true],["markdown",true],["log",true],["shellscript",true],["plaintext",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"qwen-code.chatView.secondary","isHidden":false}]'
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
-workbench.panel.lastNonMaximizedHeight: "300"
+workbench.panel.lastNonMaximizedHeight: "519"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
-workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"refactorPreview","pinned":true,"visible":false}]'
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"workbench.view.extension.continueConsole","pinned":true,"visible":false,"order":6},{"id":"refactorPreview","pinned":true,"visible":false}]'
 workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"Problems","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"Output","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"Debug
   Console","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"Test
-  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
+  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.continueConsole","name":"Continue
+  Console","isBuiltin":false},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "266"
+workbench.panel.size: "441"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
-workbench.sideBar.size: "372"
+workbench.sideBar.size: "383"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
+workbench.view.extension.claude-dev-ActivityBar.state.hidden: '[{"id":"claude-dev.SidebarProvider","isHidden":false}]'
+workbench.view.extension.continue.state.hidden: '[{"id":"continue.continueGUIView","isHidden":false}]'
+workbench.view.extension.gigacode.state.hidden: '[{"id":"gigacode.sidebar","isHidden":false}]'
+workbench.view.extension.qwen-code-secondary.state.hidden: '[{"id":"qwen-code.chatView.secondary","isHidden":false}]'
+workbench.view.extension.qwen-code-sidebar.state.hidden: '[{"id":"qwen-code.chatView.sidebar","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "3"
-workbench.welcomePage.hiddenCategories: '["Setup"]'
+workbench.views.extensions.installed.size: "7"
+workbench.welcomePage.hiddenCategories: '["Setup","saoudrizwan.claude-dev#ClineWalkthrough"]'
+workbench.welcomePage.walkthroughMetadata: '[["saoudrizwan.claude-dev#ClineWalkthrough",{"firstSeen":1772713382038,"stepIDs":["welcome","learn","advanced-features","mcp","getting-started"],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.2.1"}'

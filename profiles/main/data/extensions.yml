@@ -1,6 +1,14 @@
-disabled: []
+disabled:
+  - id: Continue.continue
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
+  - id: arcticicestudio.nord-visual-studio-code
+    uuid: 6f35c257-7fd5-4bc2-9cd1-01976589c17a
   - id: enkia.tokyo-night
     uuid: 1cac7443-911e-48b9-8341-49f3880c288a
+  - id: GigaCode.gigacode-vscode
+    uuid: null
+  - id: saoudrizwan.claude-dev
+    uuid: ad94c633-a9d5-4f78-b85f-c664e7d91a0f
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
