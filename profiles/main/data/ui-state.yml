@@ -7,11 +7,11 @@ GigaCode.gigacode-vscode: "{\"device_code\":\"236f5c36036dbcf1619c26d996d936905\
   \"completionsModel\":\"Gigacode-Inline-13B-v4.1\"},\"appearance\":{\"syntaxHi\
   ghlighterTheme\":\"vscDarkPlus\",\"useVscodeTheme\":false},\"internal\":{\"is\
   CloudIdentify\":false,\"customPrompts\":[]}},\"gigacode.lastNewVersionNotify\
-  \":1778422629987,\"gigacode.chatIds\":[\"3905ad43-b265-4615-b525-87229160b322\
-  \"],\"gigacode.chat-3905ad43-b265-4615-b525-87229160b322\":{\"id\":\"3905ad43\
-  -b265-4615-b525-87229160b322\",\"messages\":[{\"id\":\"abc990b1-d8ad-4961-921\
-  e-91e35262d11b\",\"type\":\"text\",\"role\":\"user\",\"chatMode\":\"agent\",\
-  \"text\":\"devide 4 by
+  \":1778600700138,\"gigacode.chatIds\":[\"3905ad43-b265-4615-b525-87229160b322\
+  \",\"6b9e5c42-01c8-41f1-b5ab-94e0470d01a3\"],\"gigacode.chat-3905ad43-b265-46\
+  15-b525-87229160b322\":{\"id\":\"3905ad43-b265-4615-b525-87229160b322\",\"mes\
+  sages\":[{\"id\":\"abc990b1-d8ad-4961-921e-91e35262d11b\",\"type\":\"text\",\
+  \"role\":\"user\",\"chatMode\":\"agent\",\"text\":\"devide 4 by
   2\",\"createdAt\":1778425670849,\"status\":\"done\"},{\"id\":\"msg_4868007fff\
   36451ba764b807f4aa2243\",\"type\":\"text\",\"role\":\"assistant\",\"chatMode\
   \":\"agent\",\"text\":\"4 divided by 2 equals
@@ -2680,7 +2680,181 @@ GigaCode.gigacode-vscode: "{\"device_code\":\"236f5c36036dbcf1619c26d996d936905\
   ader\":\"MTAuMjMzLjExMC4xNjI=\",\"toolData\":{\"name\":\"run_command\",\"para\
   meters\":{\"cwd\":\"c:\\\\Users\\\\Torvik\\\\source\",\"command\":\"mkdir -p
   \\\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\default\\\\fed\
-  ora\\\"\",\"commandType\":\"mkdir\"}}}],\"isActive\":false}}"
+  ora\\\"\",\"commandType\":\"mkdir\"}}}],\"isActive\":false},\"gigacode.chat-6\
+  b9e5c42-01c8-41f1-b5ab-94e0470d01a3\":{\"id\":\"6b9e5c42-01c8-41f1-b5ab-94e04\
+  70d01a3\",\"messages\":[{\"id\":\"f7316579-ad2b-4aed-ae07-408d9d0a8c24\",\"ty\
+  pe\":\"text\",\"role\":\"user\",\"chatMode\":\"agent\",\"text\":\"{\\\"message\
+  \\\":\\\"Ollama request timed out after 60
+  seconds\\\",\\\"modelId\\\":\\\"llama3.2:latest\\\",\\\"providerId\\\":\\\"ol\
+  lama\\\"}\",\"createdAt\":1778427220020,\"status\":\"done\"},{\"id\":\"chatcm\
+  pl-tool-911a2dc2d0804f7ea60b181e5e7c5c30\",\"type\":\"tool\",\"role\":\"assis\
+  tant\",\"chatMode\":\"agent\",\"createdAt\":1778427221456,\"status\":\"done\",\
+  \"xTargetHeader\":\"MTAuMjMzLjc2LjE0MQ==\",\"toolData\":{\"name\":\"read_envi\
+  ronment\",\"parameters\":{\"need_workspace_path_list\":true,\"need_is_git_ini\
+  tialized\":true,\"need_file_system\":true,\"workspace_path\":\"c:\\\\Users\\\
+  \\Torvik\\\\source\\\\fedora-niri-dotfiles\"},\"result\":{\"success\":true,\"\
+  data\":{\"workspace_path_list\":[\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-\
+  niri-dotfiles\"],\"git\":{\"is_initialized\":true},\"file_system\":[{\"type\":\
+  \"directory\",\"path\":\"/\",\"files\":[\"config\",\"default\",\"install\",\"\
+  LICENSE\",\"README.md\",\"setup.sh\",\"themes\"]},{\"type\":\"directory\",\"p\
+  ath\":\"/config\",\"files\":[\"alacritty\",\"btop\",\"fastfetch\",\"fuzzel\",\
+  \"gtk-3.0\",\"gtk-4.0\",\"niri\",\"noctalia\",\"nvim\",\"starship\"]},{\"type\
+  \":\"directory\",\"path\":\"/default\",\"files\":[\"ly\",\"nvim\",\"pacman\",\
+  \"zshrc\"]},{\"type\":\"directory\",\"path\":\"/install\",\"files\":[\"install\
+  \",\"lib\",\"pkgs.txt\",\"setup-applications\",\"setup-by-hardware\",\"setup-\
+  config\",\"setup-lazyvim\",\"setup-nvidia\",\"setup-system\",\"setup-theme\",\
+  \"setup-zsh\"]},{\"type\":\"directory\",\"path\":\"/themes\",\"files\":[\"cat\
+  ppuccin\",\"everforest\",\"matte-black\",\"nord\",\"osaka-jade\",\"ristretto\
+  \",\"tokyo-night\"]},{\"type\":\"directory\",\"path\":\"/config\\\\alacritty\
+  \",\"files\":[\"alacritty.toml\",\"themes\"]},{\"type\":\"directory\",\"path\
+  \":\"/config\\\\btop\",\"files\":[\"btop.conf\",\"themes\"]},{\"type\":\"dire\
+  ctory\",\"path\":\"/config\\\\gtk-3.0\",\"files\":[\"bookmarks\",\"settings.i\
+  ni\"]},{\"type\":\"directory\",\"path\":\"/config\\\\gtk-4.0\",\"files\":[\"s\
+  ettings.ini\"]},{\"type\":\"directory\",\"path\":\"/config\\\\niri\",\"files\
+  \":[\"config.kdl\"]},{\"type\":\"directory\",\"path\":\"/config\\\\fastfetch\
+  \",\"files\":[\"arch.txt\",\"configs\"]},{\"type\":\"directory\",\"path\":\"/\
+  config\\\\fuzzel\",\"files\":[\"fuzzel.ini\"]},{\"type\":\"directory\",\"path\
+  \":\"/config\\\\noctalia\",\"files\":[\"colors.json\",\"plugins\",\"plugins.j\
+  son\",\"settings.json\"]},{\"type\":\"directory\",\"path\":\"/config\\\\stars\
+  hip\",\"files\":[\"configs\"]},{\"type\":\"directory\",\"path\":\"/config\\\\\
+  nvim\",\"files\":[\"init.lua\",\"lazy-lock.json\",\"lazyvim.json\",\"LICENSE\
+  \",\"lua\",\"plugin\",\"README.md\",\"stylua.toml\"]},{\"type\":\"directory\",\
+  \"path\":\"/default\\\\nvim\",\"files\":[\"lazyvim.json\",\"lua\",\"plugin\"]\
+  },{\"type\":\"directory\",\"path\":\"/default\\\\pacman\",\"files\":[\"pacman\
+  .conf\"]},{\"type\":\"directory\",\"path\":\"/default\\\\ly\",\"files\":[\"co\
+  nfig.ini\",\"override.conf\"]},{\"type\":\"directory\",\"path\":\"/install\\\
+  \\lib\",\"files\":[\"backup.sh\",\"helpers.sh\",\"rollback.sh\"]},{\"type\":\
+  \"directory\",\"path\":\"/default\\\\zshrc\",\"files\":[\"aliases\",\"envs\",\
+  \"functions\",\"init\",\"rc\"]},{\"type\":\"directory\",\"path\":\"/themes\\\
+  \\catppuccin\",\"files\":[\"alacritty.toml\",\"btop.theme\",\"ghostty.conf\",\
+  \"gtk.css\",\"hyprland.conf\",\"hyprlock.conf\",\"icons.theme\",\"mako.ini\",\
+  \"neovim.lua\",\"swayosd.css\",\"walker.css\",\"waybar.css\"]},{\"type\":\"di\
+  rectory\",\"path\":\"/themes\\\\everforest\",\"files\":[\"alacritty.toml\",\"\
+  btop.theme\",\"ghostty.conf\",\"gtk.css\",\"hyprland.conf\",\"hyprlock.conf\",\
+  \"icons.theme\",\"mako.ini\",\"neovim.lua\",\"swayosd.css\",\"walker.css\"]}]\
+  }},\"duration\":157},\"responseId\":\"3c306ea8-42fc-400a-9e5f-6bcbb5943751\"}\
+  ,{\"id\":\"chatcmpl-tool-1250b513bac84bdd9594346569df5e75\",\"type\":\"tool\",\
+  \"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\":1778427222481,\"s\
+  tatus\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjc2LjE0MQ==\",\"toolData\":{\"n\
+  ame\":\"list_files\",\"parameters\":{\"path\":\"c:\\\\Users\\\\Torvik\\\\sour\
+  ce\\\\fedora-niri-dotfiles\\\\install\",\"need_recursive\":false},\"result\":{\
+  \"success\":true,\"data\":{\"directories\":[{\"type\":\"directory\",\"path\":\
+  \".\",\"files\":[\"install\",\"pkgs.txt\",\"setup-applications\",\"setup-by-h\
+  ardware\",\"setup-config\",\"setup-lazyvim\",\"setup-nvidia\",\"setup-system\
+  \",\"setup-theme\",\"setup-zsh\"]}]},\"summaryData\":{\"directoryCount\":1,\"\
+  filesCount\":10,\"workspacePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora\
+  -niri-dotfiles\",\"relativePath\":\"install\",\"isRecursive\":false}},\"summa\
+  ryData\":{\"directoryCount\":1,\"filesCount\":10,\"workspacePath\":\"c:\\\\Us\
+  ers\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"install\
+  \",\"isRecursive\":false},\"duration\":5},\"responseId\":\"64bf6a14-a05f-4965\
+  -a972-c20d0feb9089\"},{\"id\":\"chatcmpl-tool-f3e2d88e06904b23bd599302e10cfc07\
+  \",\"type\":\"tool\",\"role\":\"assistant\",\"chatMode\":\"agent\",\"createdAt\
+  \":1778427223263,\"status\":\"done\",\"xTargetHeader\":\"MTAuMjMzLjc2LjE0MQ==\
+  \",\"toolData\":{\"name\":\"read_file\",\"parameters\":{\"path\":\"c:\\\\Users\
+  \\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\setup-config\"},\"\
+  result\":{\"success\":true,\"data\":{\"content\":\"#!/bin/bash\\r\\n\\r\\nset
+  -e\\r\\n\\r\\nSCRIPT_DIR=$(cd -- \\\"$(dirname --
+  \\\"${BASH_SOURCE[0]}\\\")\\\" &>/dev/null && pwd)\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/helpers.sh\\\"\\r\\nsource
+  \\\"$SCRIPT_DIR/lib/backup.sh\\\"\\r\\nDOTFILES_DIR=\\\"$HOME/.local/share/ni\
+  ri-dotfiles\\\"\\r\\n\\r\\nlog_info \\\"Backing up existing
+  config...\\\"\\r\\n\\r\\n# Collect all targets that will be
+  affected\\r\\nTARGETS=()\\r\\nfor item in \\\"$DOTFILES_DIR/config\\\"/*;
+  do\\r\\n  if [ -e \\\"$item\\\" ]; then\\r\\n    item_name=$(basename
+  \\\"$item\\\")\\r\\n    TARGETS+=(\\\"$HOME/.config/$item_name\\\")\\r\\n  fi\
+  \\r\\ndone\\r\\n\\r\\nfor target in \\\"${TARGETS[@]}\\\"; do\\r\\n  if [ -e
+  \\\"$target\\\" ]; then\\r\\n    backup_file \\\"$target\\\" ||
+  {\\r\\n      log_error \\\"Failed to backup $(basename
+  \\\"$target\\\")\\\"\\r\\n      exit
+  1\\r\\n    }\\r\\n  fi\\r\\ndone\\r\\n\\r\\nfor target in
+  \\\"${TARGETS[@]}\\\"; do\\r\\n  remove_path
+  \\\"$target\\\"\\r\\ndone\\r\\n\\r\\ncp -r \\\"$DOTFILES_DIR/config/\\\"*
+  \\\"$HOME/.config/\\\"\\r\\nlog_success \\\"Config
+  copied!\\\"\\r\\n\\r\\n  \\r\\n\"},\"summaryData\":{\"isFull\":true,\"workspa\
+  cePath\":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relati\
+  vePath\":\"install\\\\setup-config\",\"fileName\":\"setup-config\",\"filePath\
+  \":\"c:\\\\Users\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\se\
+  tup-config\"}},\"summaryData\":{\"isFull\":true,\"workspacePath\":\"c:\\\\Use\
+  rs\\\\Torvik\\\\source\\\\fedora-niri-dotfiles\",\"relativePath\":\"install\\\
+  \\setup-config\",\"fileName\":\"setup-config\",\"filePath\":\"c:\\\\Users\\\\\
+  Torvik\\\\source\\\\fedora-niri-dotfiles\\\\install\\\\setup-config\"},\"dura\
+  tion\":4},\"responseId\":\"ca5db639-9ea2-4781-b165-5e1da07e3cdf\"},{\"id\":\"\
+  msg_70dadc0e0b2349c1accc1cb92a7ccc47\",\"type\":\"text\",\"role\":\"assistant\
+  \",\"chatMode\":\"agent\",\"text\":\"Based on the project structure and the
+  content of the `setup-config` script, this dotfiles repository is designed for
+  setting up a Fedora system with the niri window manager and various other
+  tools. The script copies configuration files from the
+  repository\",\"createdAt\":1778427225559,\"status\":\"done\",\"xTargetHeader\
+  \":\"MTAuMjMzLjc2LjE0MQ==\"},{\"id\":\"99f34927-917b-48c2-b0b0-4f0716192933\",\
+  \"type\":\"text\",\"role\":\"user\",\"chatMode\":\"ask\",\"text\":\"How to
+  adjust configs for my dotfiles install from Arch linux to
+  Fedora\",\"createdAt\":1778589111873,\"contextItems\":[],\"status\":\"done\"}\
+  ,{\"id\":\"61132a61-c166-4751-9f35-a209fbedd290\",\"type\":\"text\",\"role\":\
+  \"assistant\",\"chatMode\":\"ask\",\"text\":\"Переход с Arch Linux на Fedora
+  не требует полной перезаписи dotfiles, так как большинство конфигурационных
+  файлов (dotfiles) совместимы между дистрибутивами. Однако есть нюансы в
+  системных путях, пакетных менеджерах и службах, которые нужно учесть. Ниже —
+  руководство по адаптации dotfiles при миграции.\\n\\n---\\n\\n### 🔧 Основные
+  отличия Arch → Fedora\\n\\n| Категория | Arch Linux | Fedora
+  |\\n|--------|------------|--------|\\n| Пакетный менеджер | `pacman` + AUR
+  (`yay`, `paru`) | `dnf` (+ `rpm`, `flatpak`) |\\n| Инициализация | systemd
+  (как и в Fedora) | systemd |\\n| Расположение пакетов | `/etc/pacman.conf`,
+  `/etc/makepkg.conf` | `/etc/dnf/dnf.conf` |\\n| Загрузка оболочки |
+  `/etc/bash.bashrc`, `/etc/profile` | Аналогично |\\n| Домашняя директория |
+  `~/.bashrc`, `~/.zshrc` и т.д. | Та же структура |\\n| Системные службы |
+  `systemctl` | `systemctl` (совместимо) |\\n| Менеджер привилегий | `sudo` или
+  `doas` | Обычно `sudo` |\\n\\n---\\n\\n### ✅ Что можно оставить без
+  изменений\\n\\nВсе **dotfiles в домашней директории** остаются
+  совместимыми:\\n\\n- `~/.bashrc`, `~/.zshrc`\\n- `~/.gitconfig`\\n-
+  `~/.vimrc`, `~/.config/nvim/init.vim`\\n- `~/.config/starship.toml`\\n-
+  `~/.ssh/config`\\n- `~/.Xresources`, `~/.xinitrc` (если используете X11)\\n-
+  Скрипты в `~/bin/`\\n\\n> 💡 Эти файлы можно копировать 1:1.\\n\\n---\\n\\n###
+  ⚠️ Что нужно адаптировать\\n\\n#### 1. Установка пакетов (bootstrap
+  скрипт)\\n\\nЕсли у вас есть скрипт `install.sh` или `bootstrap.sh`, обновите
+  установку пакетов:\\n\\n```bash\\n# Было (Arch):\\n# sudo pacman -Syu
+  base-devel git neovim zsh\\n\\n# Стало (Fedora):\\nsudo dnf install -y
+  @development-tools git neovim zsh\\n```\\n\\nПример универсального
+  скрипта:\\n\\n```bash\\n# install_packages.sh\\nif command -v pacman
+  >/dev/null 2>&1; then\\n    sudo pacman -Syu --noconfirm base-devel git neovim
+  zsh\\nelif command -v dnf >/dev/null 2>&1; then\\n    sudo dnf install -y
+  @development-tools git neovim zsh\\nelse\\n    echo \\\"Unsupported package
+  manager\\\"\\n    exit 1\\nfi\\n```\\n\\n> 📌 Примечание: `base-devel` в Arch
+  ≈ `@development-tools` в Fedora.\\n\\n#### 2. AUR → COPR / RPM
+  Fusion\\n\\nЕсли вы использовали AUR-пакеты (например, `google-chrome`,
+  `visual-studio-code-bin`), в Fedora используйте:\\n\\n- **RPM Fusion**
+  (неофициальные пакеты):  \\n  ```bash\\n  sudo dnf install -y
+  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E
+  %fedora).noarch.rpm\\n  sudo dnf install -y
+  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm
+  -E %fedora).noarch.rpm\\n  ```\\n\\n- **COPR** (аналог AUR):  \\n  Например,
+  для `bottom`:\\n  ```bash\\n  sudo dnf copr enable atim/bottom -y\\n  sudo dnf
+  install bottom\\n  ```\\n\\n- Или скачайте `.rpm` вручную (например, VS Code с
+  [code.visualstudio.com](https://code.visualstudio.com/)).\\n\\n#### 3. systemd
+  юниты (если есть)\\n\\nЕсли вы добавляли пользовательские сервисы в
+  `~/.config/systemd/user/`, они работают одинаково. Но проверьте
+  пути:\\n\\n```ini\\n# Пример:
+  my-daemon.service\\n[Service]\\nExecStart=%h/bin/my-script.sh   # %h = $HOME —
+  работает везде\\n```\\n\\n✅ Оставьте как есть.\\n\\n#### 4. Шрифты и темы (GTK
+  / Qt)\\n\\nПути совпадают:\\n- `~/.local/share/fonts/`\\n- `~/.themes/`\\n-
+  `~/.icons/`\\n\\nНо в Fedora может потребоваться установить дополнительные
+  пакеты:\\n\\n```bash\\nsudo dnf install -y gnome-tweaks
+  gtk-metatheme-*\\n```\\n\\n#### 5. Сетевые утилиты\\n\\nArch:
+  `networkmanager`, `iw`, `wpa_supplicant`  \\nFedora: те же, но могут быть не
+  установлены по умолчанию:\\n\\n```bash\\nsudo dnf install -y
+  NetworkManager-wifi wireless-tools\\n```\\n\\n---\\n\\n### 🔄 Рекомендации по
+  структуре dotfiles\\n\\nИспользуйте условные конструкции в
+  скриптах:\\n\\n```bash\\n# В .bashrc или отдельном setup.sh\\ncase $(cat
+  /etc/os-release | grep ^ID= | cut -d= -f2) in\\n  \\\"arch\\\")\\n    alias
+  update-system=\\\"sudo pacman
+  -Syu\\\"\\n    ;;\\n  \\\"fedora\\\")\\n    alias update-system=\\\"sudo dnf
+  upgrade\\\"\\n    ;;\\nesac\\n```\\n\\n---\\n\\n### ✅
+  Заключение\\n\\n**Dotfiles можно оставить почти без изменений**, но:\\n-
+  Обновите скрипты установки под `dnf`\\n- Подключите RPM Fusion / COPR вместо
+  AUR\\n- Проверьте зависимости (особенно графические и проприетарные)\\n-
+  Используйте универсальные пути (`$HOME`, `~`)\\n\\nЕсли покажете ваш
+  репозиторий dotfiles — помогу адаптировать конкретные
+  файлы.\",\"createdAt\":1778589112028,\"status\":\"done\"}],\"isActive\":false\
+  }}"
 saoudrizwan.claude-dev: '{"welcomeViewCompleted":false}'
 workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
@@ -2768,12 +2942,12 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
 workbench.activityBar.location: top
 workbench.auxiliaryBar.empty: "false"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
-workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.claude-dev-ActivityBar","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.gigacode","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.continue","pinned":true,"visible":false,"order":8}]'
+workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.continue","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.claude-dev-ActivityBar","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gigacode","pinned":true,"visible":false,"order":9}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatPanelParticipantRegistered
   && !chatExtensionInvalid && !chatSetupDisabled && !chatSetupHidden &&
-  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.claude-dev-ActivityBar","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/saoudrizwan.claude-dev-3.82.0-universal/assets/icons/icon.svg","scheme":"file"},"name":"Cline","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.gigacode","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/gigacode.gigacode-vscode-26.2.18/gigacode-icon.png","scheme":"file"},"name":"GigaCode","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.continue","name":"Continue  ","isBuiltin":false}]'
-workbench.auxiliaryBar.size: "772"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["git-commit",true],["lua",true],["css",true],["jsonc",true],["json",true],["properties",true],["ini",true],["dotenv",true],["markdown",true],["log",true],["shellscript",true],["plaintext",true]]'
+  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.continue","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/continue.continue-1.2.22-win32-x64/media/sidebar-icon.png","scheme":"file"},"name":"Continue","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.claude-dev-ActivityBar","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/saoudrizwan.claude-dev-3.82.0-universal/assets/icons/icon.svg","scheme":"file"},"name":"Cline","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.gigacode","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/gigacode.gigacode-vscode-26.2.18/gigacode-icon.png","scheme":"file"},"name":"GigaCode","isBuiltin":false,"views":[{}]}]'
+workbench.auxiliaryBar.size: "909"
+workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["jsonc",true],["json",true],["properties",true],["ini",true],["dotenv",true],["markdown",true],["log",true],["python",true],["plaintext",true],["yaml",true],["shellscript",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"qwen-code.chatView.secondary","isHidden":false}]'
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
@@ -2784,13 +2958,13 @@ workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false
 workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"workbench.view.extension.continueConsole","pinned":true,"visible":false,"order":6},{"id":"refactorPreview","pinned":true,"visible":false}]'
 workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"Problems","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"Output","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"Debug
   Console","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"Test
-  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.continueConsole","name":"Continue
-  Console","isBuiltin":false},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
+  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.continueConsole","themeIcon":{"id":"window"},"name":"Continue
+  Console","isBuiltin":false,"views":[{"when":"config.continue.enableConsole"}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "441"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
-workbench.sideBar.size: "383"
+workbench.sideBar.size: "301"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
 workbench.view.extension.claude-dev-ActivityBar.state.hidden: '[{"id":"claude-dev.SidebarProvider","isHidden":false}]'
 workbench.view.extension.continue.state.hidden: '[{"id":"continue.continueGUIView","isHidden":false}]'
@@ -2801,5 +2975,5 @@ workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.mark
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
 workbench.views.extensions.installed.size: "7"
 workbench.welcomePage.hiddenCategories: '["Setup","saoudrizwan.claude-dev#ClineWalkthrough"]'
-workbench.welcomePage.walkthroughMetadata: '[["saoudrizwan.claude-dev#ClineWalkthrough",{"firstSeen":1772713382038,"stepIDs":["welcome","learn","advanced-features","mcp","getting-started"],"manaullyOpened":false}]]'
+workbench.welcomePage.walkthroughMetadata: '[["saoudrizwan.claude-dev#ClineWalkthrough",{"firstSeen":1772713382038,"stepIDs":["welcome","learn","advanced-features","mcp","getting-started"],"manaullyOpened":false}],["Continue.continue#continue",{"firstSeen":1778510129177,"stepIDs":["edit","explain","generate"],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.2.1"}'
