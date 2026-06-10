@@ -8,10 +8,11 @@ GigaCode.gigacode-vscode: "{\"device_code\":\"236f5c36036dbcf1619c26d996d936905\
   ghlighterTheme\":\"vscDarkPlus\",\"useVscodeTheme\":false},\"internal\":{\"is\
   CloudIdentify\":false,\"customPrompts\":[]}},\"gigacode.lastNewVersionNotify\
   \":1778600700138,\"gigacode.chatIds\":[\"3905ad43-b265-4615-b525-87229160b322\
-  \",\"6b9e5c42-01c8-41f1-b5ab-94e0470d01a3\"],\"gigacode.chat-3905ad43-b265-46\
-  15-b525-87229160b322\":{\"id\":\"3905ad43-b265-4615-b525-87229160b322\",\"mes\
-  sages\":[{\"id\":\"abc990b1-d8ad-4961-921e-91e35262d11b\",\"type\":\"text\",\
-  \"role\":\"user\",\"chatMode\":\"agent\",\"text\":\"devide 4 by
+  \",\"6b9e5c42-01c8-41f1-b5ab-94e0470d01a3\",\"a2eaee84-aeca-4eaa-9b43-ee1160a\
+  a6169\"],\"gigacode.chat-3905ad43-b265-4615-b525-87229160b322\":{\"id\":\"390\
+  5ad43-b265-4615-b525-87229160b322\",\"messages\":[{\"id\":\"abc990b1-d8ad-496\
+  1-921e-91e35262d11b\",\"type\":\"text\",\"role\":\"user\",\"chatMode\":\"agent\
+  \",\"text\":\"devide 4 by
   2\",\"createdAt\":1778425670849,\"status\":\"done\"},{\"id\":\"msg_4868007fff\
   36451ba764b807f4aa2243\",\"type\":\"text\",\"role\":\"assistant\",\"chatMode\
   \":\"agent\",\"text\":\"4 divided by 2 equals
@@ -2854,9 +2855,73 @@ GigaCode.gigacode-vscode: "{\"device_code\":\"236f5c36036dbcf1619c26d996d936905\
   Используйте универсальные пути (`$HOME`, `~`)\\n\\nЕсли покажете ваш
   репозиторий dotfiles — помогу адаптировать конкретные
   файлы.\",\"createdAt\":1778589112028,\"status\":\"done\"}],\"isActive\":false\
-  }}"
+  },\"gigacode.chat-a2eaee84-aeca-4eaa-9b43-ee1160aa6169\":{\"id\":\"a2eaee84-a\
+  eca-4eaa-9b43-ee1160aa6169\",\"messages\":[{\"id\":\"9ca2271b-8d13-4344-825b-\
+  286f3e177993\",\"type\":\"text\",\"role\":\"user\",\"chatMode\":\"ask\",\"text\
+  \":\"analyze project and tell what it is
+  sbout\",\"createdAt\":1781113140440,\"contextItems\":[],\"status\":\"done\"},{\
+  \"id\":\"42212cb9-0c03-41ce-9f6b-d0726b303140\",\"type\":\"text\",\"role\":\"\
+  assistant\",\"chatMode\":\"ask\",\"text\":\"I'd be happy to help analyze your
+  project! However, I don't see any code or project files provided yet.\\n\\nTo
+  analyze what your project is about, I'll need to see some files — for
+  example:\\n\\n- Source code files (`.py`, `.js`, `.ts`, `.java`, etc.)\\n-
+  Project configuration files (`package.json`, `requirements.txt`, `pom.xml`,
+  etc.)\\n- README or documentation files\\n- Any description you can
+  share\\n\\nCould you please share the project files or a link to the
+  repository (if public)? Once I see the code, I can tell you what the project
+  does, its main technologies, architecture, and purpose.\\n\\nAlso, if you
+  prefer, you can describe the project in your own words — and I can help you
+  analyze it further based on that
+  description.\",\"createdAt\":1781113140632,\"status\":\"done\"},{\"id\":\"60d\
+  1ef74-a5f5-41f0-af24-e8bfc3c52097\",\"type\":\"text\",\"role\":\"user\",\"cha\
+  tMode\":\"ask\",\"text\":\"@c:/Users/Torvik/source/hypr-dotfiles/ what is done
+  in this
+  project\",\"createdAt\":1781113832318,\"contextItems\":[{\"id\":\"file-3874b5\
+  3b-126c-43d4-bdd0-2696b9c62b81\",\"type\":\"file\",\"fileName\":\"avahi-disco\
+  ver.desktop\",\"filePath\":\"c:/Users/Torvik/source/hypr-dotfiles/application\
+  s/avahi-discover.desktop\",\"relativePath\":\"c:/Users/Torvik/source/hypr-dot\
+  files/applications/avahi-discover.desktop\",\"isOpened\":false}],\"status\":\
+  \"done\"},{\"id\":\"5d94dddc-9152-4775-b741-015cbb8e13ce\",\"type\":\"text\",\
+  \"role\":\"assistant\",\"chatMode\":\"ask\",\"text\":\"Based on the file you
+  attached — `applications\\\\avahi-discover.desktop` — and the project path
+  `c:/Users/Torvik/source/hypr-dotfiles/`, I can infer the
+  following.\\n\\n---\\n\\n### 🔍 Quick Analysis of the Attached `.desktop`
+  File\\n\\n```ini\\n[Desktop Entry]\\nHidden=true\\n```\\n\\nThis is a minimal
+  desktop entry (menu launcher) file, typically used in Linux desktop
+  environments (like GNOME, KDE, etc.) to register applications in the
+  application menu.\\n\\n- `Hidden=true` means the entry is **not shown** in the
+  applications menu or desktop environment launchers.\\n- It likely refers to
+  the `avahi-discover` tool (part of **Avahi**, the mDNS/DNS-SD implementation
+  for Linux), which is a GUI utility to discover services on the local network
+  using Zeroconf/Bonjour protocols.\\n- But since it's marked `Hidden=true`,
+  it's probably just a placeholder or inherited from a package install, and
+  intentionally not shown to the user.\\n\\n⚠️ This single file **does not
+  represent the whole project** — it may just be one (possibly outdated or
+  disabled) launcher file in your project.\\n\\n---\\n\\n### 🧩 Project Name:
+  `hypr-dotfiles`\\n\\nGiven the path and
+  name:  \\n`c:/Users/Torvik/source/hypr-dotfiles/`\\n\\nThis strongly suggests
+  it's a **dotfiles repository** — a collection of configuration files for
+  customizing a Linux (or possibly Windows + WSL) desktop environment —
+  **specifically designed for or compatible with
+  [Hyprland](https://hyprland.org/)**, a dynamic tiling Wayland
+  compositor.\\n\\n#### What Hyprland dotfiles usually include:\\n-
+  `hyprland.conf` — main configuration (keybinds, monitor setup, animations,
+  etc.)\\n- Window manager-related configs (`wal`, `wofi`, `hyprpaper`,
+  etc.)\\n- Shell configs (`zshrc`, `bashrc`, etc.)\\n- Terminal settings
+  (`alacritty.yml`, `kitty.conf`, etc.)\\n- App launcher setups (`rofi`, `wofi`,
+  `dmenu`)\\n- Audio/network/Bluetooth integrations (`pamixer`, `blueman`,
+  `networkmanager-dmenu`)\\n- Themes, icons, cursors, fonts, colors (often
+  synced via `pywal`, `sxhkd` alternatives, or `hyprconf`)\\n- `setup.sh` or
+  similar to automate deployment\\n\\n✅ **Conclusion**:  \\nYour project
+  `hypr-dotfiles` is a **personal configuration setup for the Hyprland Wayland
+  compositor**, including tools, themes, and integrations that define how your
+  desktop behaves and looks.\\n\\nIf you'd like, you can share a file (e.g.,
+  `hyprland.conf`, `.config/`, or `setup.sh`) and I can give a deeper analysis
+  of its structure, features, and possible improvements.\\n\\nWould you like to
+  share more files?
+  😊\",\"createdAt\":1781113832524,\"status\":\"done\"}],\"isActive\":true}}"
 saoudrizwan.claude-dev: '{"welcomeViewCompleted":false}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.continue","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.claude-dev-ActivityBar","pinned":true,"visible":false,"order":9}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
@@ -2875,8 +2940,10 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   'default'\"},{\"when\":\"loadedScriptsSupported && debugUx ==
   'default'\"},{\"when\":\"breakpointsExist || hasDebugged || debugUx ==
   'default'\"},{\"when\":\"debugType == 'pwa-chrome' || debugType ==
+  'pwa-editor-browser' || debugType ==
   'pwa-msedge'\"},{\"when\":\"jsDebugHasExcludedCallers && debugType ==
   'node-terminal' || jsDebugHasExcludedCallers && debugType == 'pwa-chrome' ||
+  jsDebugHasExcludedCallers && debugType == 'pwa-editor-browser' ||
   jsDebugHasExcludedCallers && debugType == 'pwa-extensionHost' ||
   jsDebugHasExcludedCallers && debugType == 'pwa-msedge' ||
   jsDebugHasExcludedCallers && debugType ==
@@ -2900,21 +2967,26 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   !config.extensions.showRecommendationsOnlyOnDemand &&
   !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
   hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledMcpServers &&
-  !chatSetupHidden\"},{\"when\":\"config.chat.mcp.gallery.enabled &&
-  defaultExtensionViews && !chatSetupHidden && !config.chat.disableAIFeatures &&
-  !hasInstalledMcpServers && mcpServersGalleryStatus == 'available' ||
-  config.chat.mcp.gallery.serviceUrl && defaultExtensionViews &&
-  !chatSetupHidden && !config.chat.disableAIFeatures && !hasInstalledMcpServers
-  && mcpServersGalleryStatus == 'available' || defaultExtensionViews &&
-  !chatSetupHidden && !config.chat.disableAIFeatures && !hasInstalledMcpServers
-  && mcpServersGalleryStatus == 'available' && productQualityType !=
-  'stable'\"},{\"when\":\"defaultExtensionViews && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && !config.chat.mcp.gallery.enabled &&
-  !config.chat.mcp.gallery.serviceUrl && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' && productQualityType ==
-  'stable'\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"hasGallery &&
+  hasInstalledMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures\"},{\"when\":\"config.chat.mcp.gallery.enabled
+  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
+  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
+  mcpServersGalleryStatus == 'available' || config.chat.mcp.gallery.serviceUrl
+  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
+  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
+  mcpServersGalleryStatus == 'available' || defaultExtensionViews &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
+  mcpServersGalleryStatus == 'available' && productQualityType !=
+  'stable'\"},{\"when\":\"defaultExtensionViews && !chatSetupDisabledInWorkspace
+  && !chatSetupHidden && !config.chat.disableAIFeatures &&
+  !config.chat.mcp.gallery.enabled && !config.chat.mcp.gallery.serviceUrl &&
+  !hasInstalledMcpServers && mcpServersGalleryStatus == 'available' &&
+  productQualityType == 'stable'\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledAgentPlugins &&
+  !chatSetupHidden\"},{\"when\":\"defaultExtensionViews && !chatSetupHidden &&
+  !hasInstalledAgentPlugins\"},{\"when\":\"hasGallery &&
   searchMarketplaceExtensions\"},{\"when\":\"installedExtensions ||
   searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
   \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
@@ -2923,32 +2995,47 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
   aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
   virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"},{\"when\":\"con\
-  fig.chat.mcp.gallery.enabled && searchMcpServers && !chatSetupHidden &&
-  mcpServersGalleryStatus == 'available' || config.chat.mcp.gallery.serviceUrl
-  && searchMcpServers && !chatSetupHidden && mcpServersGalleryStatus ==
-  'available' || searchMcpServers && !chatSetupHidden && mcpServersGalleryStatus
-  == 'available' && productQualityType !=
-  'stable'\"},{\"when\":\"searchMcpServers && !chatSetupHidden &&
-  !config.chat.mcp.gallery.enabled && !config.chat.mcp.gallery.serviceUrl &&
-  mcpServersGalleryStatus == 'available' && productQualityType ==
+  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"},{\"when\":\"sea\
+  rchRestartRequiredExtensions\"},{\"when\":\"searchAgentPlugins &&
+  !chatSetupHidden\"},{\"when\":\"config.chat.mcp.gallery.enabled &&
+  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
+  config.chat.mcp.gallery.serviceUrl && searchMcpServers &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
+  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' &&
+  productQualityType != 'stable'\"},{\"when\":\"searchMcpServers &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures && !config.chat.mcp.gallery.enabled &&
+  !config.chat.mcp.gallery.serviceUrl && mcpServersGalleryStatus == 'available'
+  && productQualityType ==
   'stable'\"}]},{\"id\":\"workbench.view.extension.test\",\"themeIcon\":{\"id\":\
   \"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":true,\"views\":[{\"when\
   \":\"testing.providerCount >
   0\"},{\"when\":\"testing.isTestCoverageOpen\"}]},{\"id\":\"workbench.view.ext\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"Ref\
   erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
-  \"}]}]"
+  \"}]},{\"id\":\"workbench.view.extension.continue\",\"iconUrl\":{\"$mid\":1,\
+  \"path\":\"%%EXTENSION_DATA_PATH%%/continue.continue-1.2.22-win32-x64/media/s\
+  idebar-icon.png\",\"scheme\":\"file\"},\"name\":\"Continue\",\"isBuiltin\":fa\
+  lse,\"views\":[{}]},{\"id\":\"workbench.view.extension.claude-dev-ActivityBar\
+  \",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/saoudrizwan.cla\
+  ude-dev-3.89.0-universal/assets/icons/icon.svg\",\"scheme\":\"file\"},\"name\
+  \":\"Cline\",\"isBuiltin\":false,\"views\":[{}]}]"
 workbench.activityBar.location: top
 workbench.auxiliaryBar.empty: "false"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
-workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.continue","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.claude-dev-ActivityBar","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gigacode","pinned":true,"visible":false,"order":9}]'
-workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatPanelParticipantRegistered
-  && !chatExtensionInvalid && !chatSetupDisabled && !chatSetupHidden &&
-  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.continue","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/continue.continue-1.2.22-win32-x64/media/sidebar-icon.png","scheme":"file"},"name":"Continue","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.claude-dev-ActivityBar","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/saoudrizwan.claude-dev-3.82.0-universal/assets/icons/icon.svg","scheme":"file"},"name":"Cline","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.gigacode","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/gigacode.gigacode-vscode-26.2.18/gigacode-icon.png","scheme":"file"},"name":"GigaCode","isBuiltin":false,"views":[{}]}]'
-workbench.auxiliaryBar.size: "909"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["jsonc",true],["json",true],["properties",true],["ini",true],["dotenv",true],["markdown",true],["log",true],["python",true],["plaintext",true],["yaml",true],["shellscript",true]]'
+workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.continue","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.claude-dev-ActivityBar","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gigacode","pinned":true,"visible":false,"order":10}]'
+workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
+  && !chatAccountPolicyGateActive || chatPanelParticipantRegistered &&
+  !chatAccountPolicyGateActive || !chatAccountPolicyGateActive &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.continue","name":"Continue","isBuiltin":false},{"id":"workbench.view.extension.claude-dev-ActivityBar","name":"Cline","isBuiltin":false},{"id":"workbench.view.extension.gigacode","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/gigacode.gigacode-vscode-26.5.41/gigacode-icon.png","scheme":"file"},"name":"GigaCode","isBuiltin":false,"views":[{}]}]'
+workbench.auxiliaryBar.size: "889"
+workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["jsonc",true],["json",true],["ini",true],["dotenv",true],["markdown",true],["log",true],["python",true],["yaml",true],["shellscript",true],["plaintext",true],["properties",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"qwen-code.chatView.secondary","isHidden":false}]'
+workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
 workbench.panel.lastNonMaximizedHeight: "519"
@@ -2959,7 +3046,7 @@ workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"v
 workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"Problems","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"Output","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"Debug
   Console","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"Test
   Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.continueConsole","themeIcon":{"id":"window"},"name":"Continue
-  Console","isBuiltin":false,"views":[{"when":"config.continue.enableConsole"}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
+  Console","isBuiltin":false,"views":[]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "441"
@@ -2969,11 +3056,15 @@ workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":
 workbench.view.extension.claude-dev-ActivityBar.state.hidden: '[{"id":"claude-dev.SidebarProvider","isHidden":false}]'
 workbench.view.extension.continue.state.hidden: '[{"id":"continue.continueGUIView","isHidden":false}]'
 workbench.view.extension.gigacode.state.hidden: '[{"id":"gigacode.sidebar","isHidden":false}]'
+workbench.view.extension.gitlens.state.hidden: '[{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.launchpad","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false}]'
+workbench.view.extension.gitlensInspect.state.hidden: '[{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"gitlens.views.pullRequest","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.searchAndCompare","isHidden":false}]'
+workbench.view.extension.gitlensPanel.state.hidden: '[{"id":"gitlens.views.graph","isHidden":false},{"id":"gitlens.views.graphDetails","isHidden":false}]'
 workbench.view.extension.qwen-code-secondary.state.hidden: '[{"id":"qwen-code.chatView.secondary","isHidden":false}]'
 workbench.view.extension.qwen-code-sidebar.state.hidden: '[{"id":"qwen-code.chatView.sidebar","isHidden":false}]'
-workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false}]'
+workbench.view.extension.sqlnotebook.state.hidden: '[{"id":"sqlnotebook-connections","isHidden":false},{"id":"sqlnotebook.connectionForm","isHidden":false},{"id":"sqlnotebook-helpfeedback","isHidden":false}]'
+workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false},{"id":"workbench.views.agentPlugins.installed","isHidden":false},{"id":"workbench.views.agentPlugins.default.marketplace","isHidden":true},{"id":"workbench.views.extensions.restartRequired","isHidden":false},{"id":"workbench.views.agentPlugins.marketplace","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
 workbench.views.extensions.installed.size: "7"
 workbench.welcomePage.hiddenCategories: '["Setup","saoudrizwan.claude-dev#ClineWalkthrough"]'
-workbench.welcomePage.walkthroughMetadata: '[["saoudrizwan.claude-dev#ClineWalkthrough",{"firstSeen":1772713382038,"stepIDs":["welcome","learn","advanced-features","mcp","getting-started"],"manaullyOpened":false}],["Continue.continue#continue",{"firstSeen":1778510129177,"stepIDs":["edit","explain","generate"],"manaullyOpened":false}]]'
+workbench.welcomePage.walkthroughMetadata: '[["saoudrizwan.claude-dev#ClineWalkthrough",{"firstSeen":1772713382038,"stepIDs":["welcome","learn","advanced-features","mcp","getting-started"],"manaullyOpened":false}],["Continue.continue#continue",{"firstSeen":1778510129177,"stepIDs":["edit","explain","generate"],"manaullyOpened":false}],["Vizards.deepseek-v4-for-copilot#deepseekGettingStarted",{"firstSeen":1781112755671,"stepIDs":["setApiKey","showModels","advancedSettings"],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.2.1"}'
